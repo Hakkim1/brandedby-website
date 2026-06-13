@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #fcfaf2;
+  --color-surface: #FFFFFF;
+  --color-surface-2: #F5F2E9;
+  --color-surface-3: #E9E5D9;
+
+  --color-purple: #7d68f8;
+  --color-purple-light: #9f91fa;
+  --color-purple-dim: rgba(125, 104, 248, 0.08);
+  --color-purple-glow: rgba(125, 104, 248, 0.15);
+  
+  --color-orange: #9f91fa;
+  --color-orange-light: #B4ADF5;
+  --color-orange-dim: rgba(159, 145, 250, 0.08);
+  --color-orange-glow: rgba(159, 145, 250, 0.15);
+
+  --color-text-primary: #0F0F16;
+  --color-text-secondary: #313142;
+  --color-text-muted: #6B6B7E;
+  --color-text-faint: rgba(15, 15, 22, 0.15);
+
+  --color-border: rgba(15, 15, 22, 0.08);
+  --color-border-hover: rgba(125, 104, 248, 0.45);
+  --color-border-orange: rgba(159, 145, 250, 0.45);
+
+  --grid-line-color: rgba(125, 104, 248, 0.075);
+
+  --font-heading: 'Syne', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-accent: 'Cormorant Garamond', serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Base resets */
+html {
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  scroll-behavior: auto;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+body, header, main, footer, section, a, button, input, select, textarea, div {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Noise overlay */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  opacity: 0.005; /* Clean modern noise styling */
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Selection */
+::selection {
+  background-color: var(--color-purple);
+  color: #FFFFFF;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-surface-2);
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-purple);
+}
+
+/* Layout Blueprint Grid Overlay */
+.blueprint-grid {
+  position: relative;
+}
+.blueprint-grid::before {
+  content: "";
+  position: fixed; /* Fixed to viewport so it matches the interactive grid scroll behavior */
+  inset: 0;
+  background-image: linear-gradient(var(--grid-line-color) 1px, transparent 1px),
+                    linear-gradient(90deg, var(--grid-line-color) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Background vertical lines */
+.body-lines-wrap {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 2.75rem 1fr 1fr 1fr 1fr 2.75rem;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.body-line {
+  width: 1px;
+  height: 100%;
+  background-color: var(--color-border);
+  position: relative;
+}
+
+.body-line::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(to bottom, var(--color-purple), transparent);
+  opacity: 0.15;
+}
+
+/* Heading Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+/* Outlined text styles */
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.15);
+}
+
+.text-outline-purple {
+  color: transparent;
+  -webkit-text-stroke: 1px var(--color-purple);
+}
+
+.text-gradient-purple {
+  background: linear-gradient(90deg, var(--color-text-primary) 0%, var(--color-purple) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.text-gradient-purple-light {
+  background: linear-gradient(90deg, var(--color-text-primary) 0%, var(--color-purple-light) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+/* Monospace label utility */
+.tech-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Glow Border container styles */
+.glow-border {
+  position: relative;
+  border: 1px solid var(--color-border);
+}
+
+.glow-border::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, var(--color-purple), var(--color-purple-light));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.glow-border:hover::after {
+  opacity: 1;
+}
+
+/* Tech corner ticks disabled for clean modern aesthetic */
+.corner-tick {
+  position: relative;
+}
+.corner-tick::before, .corner-tick::after {
+  display: none;
+}
+
+
+
+/* Preloader grid styles */
+.preload-container {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color-bg);
+  z-index: 99999;
+  display: grid;
+  grid-template-columns: 2.75rem 1fr 1fr 1fr 1fr 2.75rem;
+}
+
+.preload-col {
+  height: 100%;
+  border-right: 1px solid rgba(255, 255, 255, 0.03);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.preload-col::after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  bottom: 0;
+  width: 1px;
+  height: 100%;
+  background-color: var(--color-purple);
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 1.2s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.preload-container.active .preload-col::after {
+  transform: scaleY(1);
+}
+
+.preload-pixel {
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-text-faint);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.preload-container.active .preload-pixel {
+  opacity: 1;
+}
+
+.scramble-link {
+  cursor: pointer;
+}
+
+/* Modern Button States */
+.btn-cyber {
+  position: relative;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--color-text-primary);
+  padding: 0.65rem 1.5rem;
+  background-color: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: 0;
+  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-cyber:hover {
+  background-color: var(--color-purple);
+  border-color: var(--color-purple);
+  color: #FFFFFF;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px var(--color-purple-glow);
+}
+
+.btn-cyber-purple {
+  position: relative;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  padding: 0.65rem 1.5rem;
+  background-color: var(--color-purple);
+  border: 1px solid var(--color-purple);
+  border-radius: 0;
+  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-cyber-purple:hover {
+  background-color: var(--color-purple-light);
+  border-color: var(--color-purple-light);
+  color: #FFFFFF;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px var(--color-purple-glow);
+}
+
+/* Custom Cursor ring transition override to prevent transform conflict */
+.custom-cursor-ring {
+  transition: width 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+              height 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+              background-color 0.3s ease,
+              border-color 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+/* Liquid Glassmorphism (Apple frosted glass effect) */
+.liquid-glass {
+  background-color: rgba(255, 255, 255, 0.45) !important;
+  backdrop-filter: blur(20px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(190%) !important;
+  border-color: rgba(255, 255, 255, 0.4) !important;
+  box-shadow: 0 8px 32px 0 rgba(15, 15, 22, 0.03) !important;
+}
+
+.liquid-glass-dense {
+  background-color: rgba(255, 255, 255, 0.75) !important;
+  backdrop-filter: blur(20px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(190%) !important;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+  box-shadow: 0 8px 32px 0 rgba(15, 15, 22, 0.04) !important;
+}
