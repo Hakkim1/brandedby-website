@@ -2,11 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import dynamic from "next/dynamic";
 import { ArrowRight } from "lucide-react";
 import { ScrambleText } from "@/components/Navbar";
-
-const StoryCanvas = dynamic(() => import("@/components/StoryCanvas"), { ssr: false });
 
 export default function StoryPage() {
   const [activeChapter, setActiveChapter] = useState(0);
@@ -167,7 +164,7 @@ export default function StoryPage() {
         </div>
 
         {/* Center Side: Active Chapter Text details */}
-        <div className="lg:col-span-5 flex flex-col gap-6">
+        <div className="lg:col-span-8 flex flex-col gap-6">
           <div className="flex items-center gap-3">
             <span className="font-body text-sm font-semibold text-purple bg-purple/10 border border-purple/20 px-3 py-1 rounded-none">
               Chapter {chapters[activeChapter].id}
@@ -192,17 +189,6 @@ export default function StoryPage() {
               "For every new business that starts with nothing. Just like we did."
             </div>
           )}
-        </div>
-
-        {/* Right Side: Shape Canvas Metaphor */}
-        <div className="lg:col-span-3 flex flex-col items-center justify-center liquid-glass rounded-none p-4 self-start lg:sticky lg:top-28">
-          <span className="font-body text-xs text-muted font-bold tracking-wider uppercase mb-2">
-            Metaphor Visualizer
-          </span>
-          <StoryCanvas activeChapter={activeChapter} />
-          <span className="font-body text-xs text-purple font-bold uppercase tracking-wider text-center mt-2">
-            ● Metaphor: {chapters[activeChapter].metaphor}
-          </span>
         </div>
       </section>
 
