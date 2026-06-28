@@ -1,38 +1,49 @@
 "use client";
 
 import { useEffect } from "react";
-import Lenis from "lenis";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
 
 export default function LayoutWrapper({ children }) {
   useEffect(() => {
-    // Initialize Lenis smooth scroll
-    const lenis = new Lenis({
-      duration: 1.2,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      orientation: "vertical",
-      gestureOrientation: "vertical",
-      smoothWheel: true,
-      wheelMultiplier: 1,
-      touchMultiplier: 2,
-    });
+    let lenis;
+    let updateGsapTicker;
 
-    // Synchronize ScrollTrigger with Lenis
-    lenis.on("scroll", ScrollTrigger.update);
+    const init = async () => {
+      const { default: LenisClass } = await import("lenis");
+      const { gsap } = await import("gsap");
+      const { ScrollTrigger } = await import("gsap/ScrollTrigger");
 
-    // Integrate Lenis RAF with GSAP ticker
-    const updateGsapTicker = (time) => {
-      lenis.raf(time * 1000);
+      gsap.registerPlugin(ScrollTrigger);
+
+      lenis = new LenisClass({
+        duration: 1.2,
+        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+        orientation: "vertical",
+        gestureOrientation: "vertical",
+        smoothWheel: true,
+        wheelMultiplier: 1,
+        touchMultiplier: 2,
+      });
+
+      // Synchronize ScrollTrigger with Lenis
+      lenis.on("scroll", ScrollTrigger.update);
+
+      // Integrate Lenis RAF with GSAP ticker
+      updateGsapTicker = (time) => {
+        lenis.raf(time * 1000);
+      };
+      gsap.ticker.add(updateGsapTicker);
+      gsap.ticker.lagSmoothing(0);
     };
-    gsap.ticker.add(updateGsapTicker);
-    gsap.ticker.lagSmoothing(0);
+
+    init();
 
     return () => {
-      lenis.destroy();
-      gsap.ticker.remove(updateGsapTicker);
+      if (lenis) lenis.destroy();
+      if (updateGsapTicker) {
+        import("gsap").then(({ gsap }) => {
+          gsap.ticker.remove(updateGsapTicker);
+        });
+      }
     };
   }, []);
 
