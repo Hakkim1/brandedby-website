@@ -52,7 +52,7 @@ export default function TeamPage() {
               <div>
                 {/* Photo placeholder */}
                 <div
-                  className="w-full h-40 rounded-none mb-4 overflow-hidden relative"
+                  className="w-full h-52 rounded-none mb-4 overflow-hidden relative"
                   style={{ background: member.gradient }}
                 >
                   <div className="absolute top-4 left-4 font-body text-xs font-semibold text-muted tracking-wide uppercase bg-bg/85 border border-border px-3.5 py-1.5 rounded-none shadow-md">
