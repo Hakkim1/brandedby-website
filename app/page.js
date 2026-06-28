@@ -335,35 +335,35 @@ export default function HomePage() {
               className="group relative bg-surface border border-border rounded-none glow-border overflow-hidden flex flex-col justify-between shadow-lg cursor-pointer animate-fade-in aspect-square"
             >
               {/* Image Block */}
-              <div className="w-full aspect-[4/3] overflow-hidden relative shrink-0">
+              <div className="w-full aspect-[16/9] overflow-hidden relative shrink-0">
                 <img
                   src={project.coverImage}
                   alt={project.name}
-                  className="w-full h-[108%] object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                 />
               </div>
 
               {/* Text Info */}
-              <div className="p-4 flex-1 flex justify-between items-center bg-surface-2/30 border-t border-border min-h-0">
-                <div className="flex-1 min-w-0 pr-3">
-                  <span className="font-body text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-purple block mb-0.5 truncate">
+              <div className="p-5 flex-1 flex justify-between items-center bg-surface-2/30 min-h-0">
+                <div className="flex-1 min-w-0 pr-4">
+                  <span className="font-body text-[10px] sm:text-xs font-bold uppercase tracking-wider text-purple block mb-1 truncate">
                     {project.category}
                   </span>
-                  <h4 className="font-heading font-extrabold text-sm sm:text-base text-primary line-clamp-1 leading-tight">
+                  <h4 className="font-heading font-extrabold text-base sm:text-lg text-primary line-clamp-2 leading-tight">
                     {project.name}
                   </h4>
-                  <div className="flex flex-wrap gap-1 mt-1.5 overflow-hidden h-[18px]">
-                    {project.tags && project.tags.slice(0, 2).map((tag) => (
+                  <div className="flex flex-wrap gap-1.5 mt-2 overflow-hidden h-[24px]">
+                    {project.tags && project.tags.slice(0, 3).map((tag) => (
                       <span
                         key={tag}
-                        className="font-body text-[9px] text-muted border border-border bg-surface-3 px-1.5 py-0.5 rounded-none whitespace-nowrap"
+                        className="font-body text-[10px] text-muted border border-border bg-surface-3 px-2 py-0.5 rounded-none whitespace-nowrap"
                       >
                         {tag}
                       </span>
                     ))}
                   </div>
                 </div>
-                <div className="w-7 h-7 rounded-none border border-border flex items-center justify-center group-hover:border-purple group-hover:bg-purple/10 transition-colors shrink-0">
+                <div className="w-8 h-8 rounded-none border border-border flex items-center justify-center group-hover:border-purple group-hover:bg-purple/10 transition-colors shrink-0">
                   <ArrowRight className="w-3.5 h-3.5 text-secondary group-hover:text-purple transition-colors" />
                 </div>
               </div>
