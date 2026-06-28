@@ -335,7 +335,7 @@ export default function HomePage() {
               className="group relative bg-surface border border-border rounded-none glow-border overflow-hidden flex flex-col justify-between shadow-lg cursor-pointer animate-fade-in aspect-square"
             >
               {/* Image Block */}
-              <div className="w-full flex-1 min-h-0 overflow-hidden relative">
+              <div className="w-full aspect-[16/9] overflow-hidden relative shrink-0">
                 <img
                   src={project.coverImage}
                   alt={project.name}
@@ -344,7 +344,7 @@ export default function HomePage() {
               </div>
 
               {/* Text Info */}
-              <div className="p-5 h-[155px] flex justify-between items-center bg-surface-2/30 border-t border-border shrink-0">
+              <div className="p-5 flex-1 flex justify-between items-center bg-surface-2/30 border-t border-border min-h-0">
                 <div className="flex-1 min-w-0 pr-4">
                   <span className="font-body text-[10px] sm:text-xs font-bold uppercase tracking-wider text-purple block mb-1 truncate">
                     {project.category}
