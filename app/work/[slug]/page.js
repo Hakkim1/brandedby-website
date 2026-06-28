@@ -73,15 +73,15 @@ export default function ProjectCaseStudyPage({ params }) {
         <div className="grid grid-cols-2 md:grid-cols-4 border border-border bg-surface/30">
           <div className="p-6 border-r border-b md:border-b-0 border-border">
             <span className="text-[10px] font-mono tracking-widest text-muted block mb-1 uppercase">Client</span>
-            <span className="font-heading font-extrabold text-lg text-primary">{project.caseStudy.client}</span>
+            <span className="font-heading font-extrabold text-base sm:text-lg text-primary">{project.caseStudy.client}</span>
           </div>
           <div className="p-6 border-b md:border-r md:border-b-0 border-border">
             <span className="text-[10px] font-mono tracking-widest text-muted block mb-1 uppercase">Year</span>
-            <span className="font-heading font-extrabold text-lg text-primary">{project.caseStudy.year}</span>
+            <span className="font-heading font-extrabold text-base sm:text-lg text-primary">{project.caseStudy.year}</span>
           </div>
           <div className="p-6 border-r border-border">
             <span className="text-[10px] font-mono tracking-widest text-muted block mb-1 uppercase">Scope & Role</span>
-            <span className="font-heading font-extrabold text-sm text-primary block truncate" title={project.caseStudy.services}>
+            <span className="font-heading font-extrabold text-base sm:text-lg text-primary block leading-tight md:leading-snug" title={project.caseStudy.services}>
               {project.caseStudy.services}
             </span>
           </div>
