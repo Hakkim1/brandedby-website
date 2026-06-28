@@ -5,58 +5,15 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { ScrambleText } from "@/components/Navbar";
 
+import projectsData from "@/data/projects-data.json";
+
 export default function WorkPage() {
   const [activeTab, setActiveTab] = useState("All");
 
-  const filterTabs = ["All", "Brand Identity", "Logo Design", "Social Media", "Print", "Digital"];
-
-  const projects = [
-    {
-      id: 1,
-      name: "Chai Shop Tech",
-      category: "Brand Identity",
-      image: "linear-gradient(135deg, #7d68f8 0%, #14141E 100%)",
-      tags: ["Brand Strategy", "Visual Identity"],
-    },
-    {
-      id: 2,
-      name: "Alpha Growth",
-      category: "Logo Design",
-      image: "linear-gradient(135deg, #9f91fa 0%, #14141E 100%)",
-      tags: ["Symbolism", "Vector System"],
-    },
-    {
-      id: 3,
-      name: "Zeta Networks",
-      category: "Digital",
-      image: "linear-gradient(135deg, #1E1E2C 0%, #7d68f8 100%)",
-      tags: ["Performance Marketing", "Social Media Campaigns"],
-    },
-    {
-      id: 4,
-      name: "Beta Logistics",
-      category: "Print",
-      image: "linear-gradient(135deg, #9f91fa 0%, #7d68f8 100%)",
-      tags: ["Packaging Layouts", "Banners"],
-    },
-    {
-      id: 5,
-      name: "Gamma Analytics",
-      category: "Brand Identity",
-      image: "linear-gradient(135deg, #14141E 0%, #9f91fa 100%)",
-      tags: ["Website Design", "Data Graphics"],
-    },
-    {
-      id: 6,
-      name: "Delta Finance",
-      category: "Digital",
-      image: "linear-gradient(135deg, #7d68f8 0%, #9f91fa 100%)",
-      tags: ["New Business Launch Pack", "Pitch Deck"],
-    },
-  ];
+  const filterTabs = ["All", "Brand Identity", "Logo Design", "Social Media"];
 
   // Map user tabs to project categories
-  const filteredProjects = projects.filter((project) => {
+  const filteredProjects = projectsData.filter((project) => {
     if (activeTab === "All") return true;
     return project.category === activeTab;
   });
@@ -76,7 +33,7 @@ export default function WorkPage() {
             Each project here began with a founder who had a vision and needed someone to bring it to life. We were that someone.
           </p>
           <div className="mt-8 p-4 bg-surface/60 border border-border text-xs text-muted leading-relaxed rounded-none inline-block max-w-xl">
-            ● CONFIDENTIALITY NOTE: Due to client agreements, some projects are shown in limited detail. Full case studies are available on request.
+            ● CASE STUDY NOTE: The following cases outline design strategy and creative execution blueprints. Full source assets are linked.
           </div>
         </div>
       </section>
@@ -111,18 +68,21 @@ export default function WorkPage() {
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredProjects.map((project) => (
-              <div
+              <Link
                 key={project.id}
-                className="group relative bg-surface border border-border rounded-none overflow-hidden flex flex-col justify-between shadow-lg"
+                href={`/work/${project.slug}`}
+                className="group relative bg-surface border border-border rounded-none overflow-hidden flex flex-col justify-between shadow-lg cursor-pointer"
               >
                 {/* Image Block */}
-                <div
-                  className="w-full h-64 md:h-80 transition-transform duration-500 group-hover:scale-[1.03]"
-                  style={{ background: project.image }}
-                >
+                <div className="w-full h-64 md:h-80 overflow-hidden relative">
+                  <img
+                    src={project.coverImage}
+                    alt={project.name}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                  />
                   <div className="absolute inset-0 bg-bg/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                     <span className="font-body text-xs font-semibold uppercase tracking-wider text-primary bg-bg/85 border border-border px-5 py-2.5 rounded-none">
-                      Request Case Study
+                      View Case Study
                     </span>
                   </div>
                 </div>
@@ -151,7 +111,7 @@ export default function WorkPage() {
                     <ArrowRight className="w-3.5 h-3.5 text-secondary group-hover:text-purple transition-colors" />
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         )}

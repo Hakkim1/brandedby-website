@@ -5,6 +5,7 @@ import Link from "next/link";
 import dynamic from "next/dynamic";
 import { ArrowRight, ChevronDown, Award, Lightbulb, Zap, Send } from "lucide-react";
 import { ScrambleText } from "@/components/Navbar";
+import projectsData from "@/data/projects-data.json";
 
 // Dynamically import Three.js canvas to prevent server-side hydration mismatches
 const HeroCanvas = dynamic(() => import("@/components/HeroCanvas"), { ssr: false });
@@ -25,37 +26,37 @@ export default function HomePage() {
     {
       id: "02",
       name: "Logo Design",
-      desc: "More than a mark. A symbol that communicates who you are before you say a word. Created with meaning, not just aesthetics.",
+      desc: "A custom mark crafted to capture your essence and communicate your vision instantly. Unforgettable, functional, vector-perfect.",
       signature: false,
     },
     {
       id: "03",
-      name: "Social Media Branding",
-      desc: "Consistent, recognizable presence across every platform your audience lives on. Templates, assets, and guidelines included.",
+      name: "Visual Guidelines",
+      desc: "The rulebook that protects your brand. Color systems, spacing rules, and usage guides so anyone can build for your brand consistently.",
       signature: false,
     },
     {
       id: "04",
-      name: "New Business Brand Packages",
-      desc: "Everything a new business needs to launch with confidence — built for where you are today and designed for where you're going tomorrow.",
+      name: "Social Media Kits",
+      desc: "Ready-to-use templates and grids to ensure your visual voice stays premium, polished, and active across all platforms.",
       signature: false,
     },
     {
       id: "05",
-      name: "Visual Strategy & Consulting",
-      desc: "Not just design — direction. We help you understand your brand, own it, and use it with clarity and consistency.",
+      name: "Creative Direction",
+      desc: "Strategic guidance on how to tell your brand story visually, setting the compass for all your visual outputs.",
       signature: false,
     },
     {
       id: "06",
-      name: "Print & Packaging Design",
-      desc: "Banners, packaging, business cards, brochures — your brand brought into the physical world, exactly as it should look.",
+      name: "Packaging Systems",
+      desc: "Visual layouts and structural designs that turn simple packages into tactile brand experiences.",
       signature: false,
     },
     {
       id: "07",
-      name: "Digital & Performance Marketing",
-      desc: "Strategy, ads, and campaigns that make sure the right people find your brand — and remember it.",
+      name: "Collateral Design",
+      desc: "Banners, business cards, pitch decks, and all the print or digital touchpoints you need to conduct professional business.",
       signature: false,
     },
     {
@@ -66,26 +67,7 @@ export default function HomePage() {
     },
   ];
 
-  const featuredWork = [
-    {
-      id: 1,
-      title: "Chai Shop Tech",
-      category: "Brand Identity",
-      image: "linear-gradient(135deg, #7d68f8 0%, #14141E 100%)",
-    },
-    {
-      id: 2,
-      title: "Alpha Growth",
-      category: "Logo Design",
-      image: "linear-gradient(135deg, #9f91fa 0%, #14141E 100%)",
-    },
-    {
-      id: 3,
-      title: "Zeta Networks",
-      category: "Digital Marketing",
-      image: "linear-gradient(135deg, #1E1E2C 0%, #7d68f8 100%)",
-    },
-  ];
+  const featuredWork = projectsData.slice(0, 3);
 
   const handleResourceSubmit = (e) => {
     e.preventDefault();
@@ -347,15 +329,18 @@ export default function HomePage() {
         {/* Featured Projects Grid */}
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-8">
           {featuredWork.map((project) => (
-            <div
+            <Link
               key={project.id}
-              className="group relative bg-surface border border-border rounded-none glow-border overflow-hidden flex flex-col justify-between shadow-lg"
+              href={`/work/${project.slug}`}
+              className="group relative bg-surface border border-border rounded-none glow-border overflow-hidden flex flex-col justify-between shadow-lg cursor-pointer animate-fade-in"
             >
               {/* Image Block */}
-              <div
-                className="w-full h-64 md:h-80 transition-transform duration-500 group-hover:scale-[1.03]"
-                style={{ background: project.image }}
-              >
+              <div className="w-full h-64 md:h-80 overflow-hidden relative">
+                <img
+                  src={project.coverImage}
+                  alt={project.name}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                />
                 {/* Tech overlay grid on hover */}
                 <div className="absolute inset-0 bg-bg/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                   <span className="font-body text-xs font-semibold uppercase tracking-wider text-primary bg-bg/85 border border-border px-5 py-2.5 rounded-none">
@@ -371,14 +356,14 @@ export default function HomePage() {
                     {project.category}
                   </span>
                   <h4 className="font-heading font-bold text-base text-primary">
-                    {project.title}
+                    {project.name}
                   </h4>
                 </div>
                 <div className="w-8 h-8 rounded-none border border-border flex items-center justify-center group-hover:border-purple group-hover:bg-purple/10 transition-colors">
                   <ArrowRight className="w-3.5 h-3.5 text-secondary group-hover:text-purple transition-colors" />
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </section>

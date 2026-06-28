@@ -1,0 +1,356 @@
+[
+  {
+    "id": 1,
+    "name": "THS Brand Guidelines",
+    "slug": "ths-brand-guidelines",
+    "category": "Brand Identity",
+    "coverImage": "https://mir-s3-cdn-cf.behance.net/projects/404/4505f9135726727.Y3JvcCw1NzU0LDQ1MDEsMjk5LDA.png",
+    "tags": [
+      "Brand Guidelines",
+      "Visual Strategy",
+      "Typography System"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/135726727/THS-Brand-Guidelines",
+    "caseStudy": {
+      "client": "THS",
+      "year": "2026",
+      "services": "Brand Guidelines, Visual Strategy, Typography System",
+      "challenge": "The client, THS, needed a cohesive, professional, and visually striking strategy to establish brand trust in their industry. The existing visuals lacked coordination, creating friction for new customer acquisitions and brand recognition.",
+      "solution": "We designed a unified design system that centers around custom-tailored visual assets. This system provides clear guidelines for typography hierarchy, a structured brand color palette, and high-fidelity layouts across all digital and print touchpoints, allowing THS to communicate premium quality at a glance.",
+      "results": "Following the launch of the new identity system, THS experienced a significant increase in client trust, a unified presentation across their team, and a highly polished professional footprint that sets them apart from competitors."
+    },
+    "slides": [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/5e8a1a135726727.61ed250cb6080.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/f1ae28135726727.61ed250cb699f.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/5a51d2135726727.61ed250cc1d82.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/a654e1135726727.61ed250cbd930.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/0f781c135726727.61ed250cc071f.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/873ef2135726727.61ed250cc0d62.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/7a20f1135726727.61ed250cbb73d.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/b093f7135726727.61ed250cbf5b1.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/df7718135726727.61ed250cc2580.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/072a71135726727.61ed250cc4b93.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/51a2f7135726727.61ed250cbfe1f.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/755af5135726727.61ed250cc42cf.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/2c83eb135726727.61ed250cbaa34.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/1eaccc135726727.61ed250cbc94c.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/ce6faf135726727.61ed250cc33cc.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/7b600b135726727.61ed250cbe6e8.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/dccc0e135726727.61ed250cbb03c.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/bdf677135726727.61ed250cc3a9c.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/4b0126135726727.61ed250cbd1ed.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/04e68d135726727.61ed250cb87f9.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/fd133e135726727.61ed250cc1582.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/285b9b135726727.61ed250cb7f3c.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/5f4116135726727.61ed250cb6fc1.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/68e463135726727.61ed250cc2b6f.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/b0cf6c135726727.61ed250cb75c4.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/cb5b6a135726727.61ed250cb990a.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/9278c3135726727.61ed250cb908c.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/757436135726727.61ed250cba207.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/d46cc1135726727.61ed250cbc015.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/f74b77135726727.61ed250cbdfc2.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/9c09a3135726727.61ed250cbecf4.png"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "SVIGS Brand Guidelines",
+    "slug": "svigs-brand-guidelines",
+    "category": "Brand Identity",
+    "coverImage": "https://mir-s3-cdn-cf.behance.net/projects/404/09299b164395127.Y3JvcCwxMjc5LDEwMDAsMCww.png",
+    "tags": [
+      "Brand Guidelines",
+      "Visual Strategy",
+      "Typography System"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/164395127/SVIGS-Brand-Guidelines",
+    "caseStudy": {
+      "client": "SVIGS",
+      "year": "2026",
+      "services": "Brand Guidelines, Visual Strategy, Typography System",
+      "challenge": "The client, SVIGS, needed a cohesive, professional, and visually striking strategy to establish brand trust in their industry. The existing visuals lacked coordination, creating friction for new customer acquisitions and brand recognition.",
+      "solution": "We designed a unified design system that centers around custom-tailored visual assets. This system provides clear guidelines for typography hierarchy, a structured brand color palette, and high-fidelity layouts across all digital and print touchpoints, allowing SVIGS to communicate premium quality at a glance.",
+      "results": "Following the launch of the new identity system, SVIGS experienced a significant increase in client trust, a unified presentation across their team, and a highly polished professional footprint that sets them apart from competitors."
+    },
+    "slides": [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/9e0af9164395127.63f61734e76b0.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/661591164395127.63f61734e1a27.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/4efa3a164395127.63f61734e0c56.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/5e2d78164395127.63f61734e351f.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/c053c7164395127.63f61734e4f2e.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/51f59e164395127.63f61734e84bd.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/913424164395127.63f61734e6a52.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/2e8fb6164395127.63f61734e272c.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/1fca6b164395127.63f61734e4280.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/7f9b4e164395127.63f61734e5d72.png"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "The Refugee Trails Logo, Logofolio, Logo Presentation",
+    "slug": "the-refugee-trails-logo-logofolio-logo-presentation",
+    "category": "Logo Design",
+    "coverImage": "https://mir-s3-cdn-cf.behance.net/projects/404/7bdc6d139781059.Y3JvcCwzMzY3LDI2MzQsMCww.png",
+    "tags": [
+      "Logo Design",
+      "Symbolism",
+      "Logofolio"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/139781059/The-Refugee-Trails-Logo-Logofolio-Logo-Presentation",
+    "caseStudy": {
+      "client": "The Refugee Trails Logo, Logofolio, Logo Presentation",
+      "year": "2026",
+      "services": "Logo Design, Symbolism, Logofolio",
+      "challenge": "The client, The Refugee Trails Logo, Logofolio, Logo Presentation, needed a cohesive, professional, and visually striking strategy to establish brand trust in their industry. The existing visuals lacked coordination, creating friction for new customer acquisitions and brand recognition.",
+      "solution": "We designed a unified design system that centers around custom-tailored visual assets. This system provides clear guidelines for typography hierarchy, a structured brand color palette, and high-fidelity layouts across all digital and print touchpoints, allowing The Refugee Trails Logo, Logofolio, Logo Presentation to communicate premium quality at a glance.",
+      "results": "Following the launch of the new identity system, The Refugee Trails Logo, Logofolio, Logo Presentation experienced a significant increase in client trust, a unified presentation across their team, and a highly polished professional footprint that sets them apart from competitors."
+    },
+    "slides": [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/58ddb8139781059.6235b97fdd7df.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/55643e139781059.6235b97fdf549.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/97248f139781059.6235b97fded87.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/a3a5e3139781059.6235b97fde5b3.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/5856af139781059.6235b97fdde3c.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/a09bd3139781059.6235b97fdfadc.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/ab0b3e139781059.6235b97fe02f5.png"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Brand Guideline for Cleanify",
+    "slug": "brand-guideline-for-cleanify",
+    "category": "Brand Identity",
+    "coverImage": "https://mir-s3-cdn-cf.behance.net/projects/404/f1be09242978551.Y3JvcCwzODM2LDMwMDEsMTgwLDA.png",
+    "tags": [
+      "Brand Guidelines",
+      "Visual Strategy",
+      "Typography System"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/242978551/Brand-Guideline-for-Cleanify",
+    "caseStudy": {
+      "client": "Cleanify",
+      "year": "2026",
+      "services": "Brand Guidelines, Visual Strategy, Typography System",
+      "challenge": "The client, Cleanify, needed a cohesive, professional, and visually striking strategy to establish brand trust in their industry. The existing visuals lacked coordination, creating friction for new customer acquisitions and brand recognition.",
+      "solution": "We designed a unified design system that centers around custom-tailored visual assets. This system provides clear guidelines for typography hierarchy, a structured brand color palette, and high-fidelity layouts across all digital and print touchpoints, allowing Cleanify to communicate premium quality at a glance.",
+      "results": "Following the launch of the new identity system, Cleanify experienced a significant increase in client trust, a unified presentation across their team, and a highly polished professional footprint that sets them apart from competitors."
+    },
+    "slides": [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/d53ed8242978551.69787b5fcdfbf.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/3e004f242978551.69787b5fccf2e.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/defd27242978551.69787b5fcfa66.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/05b341242978551.69787b5fcf0b5.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/0b3cb1242978551.69787b5fce865.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/668bce242978551.69787b5fd0aa3.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/dc7866242978551.69787b5fcc5c4.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/d06d7b242978551.69787b5fd1e49.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/d678e8242978551.69787b5fd17a4.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/d2a69b242978551.69787b5fcd892.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/1b521c242978551.69787b5fd03a0.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/96d19f242978551.69787b5fd113a.png"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Visual Identity Design - Tapovan Farms",
+    "slug": "visual-identity-design-tapovan-farms",
+    "category": "Brand Identity",
+    "coverImage": "https://mir-s3-cdn-cf.behance.net/projects/404/c0b8f0243086195.Y3JvcCwyMjg0LDE3ODcsMTE4LDA.png",
+    "tags": [
+      "Brand Guidelines",
+      "Visual Strategy",
+      "Typography System"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/243086195/Visual-Identity-Design-Tapovan-Farms",
+    "caseStudy": {
+      "client": "Visual Identity Design - Tapovan Farms",
+      "year": "2026",
+      "services": "Brand Guidelines, Visual Strategy, Typography System",
+      "challenge": "The client, Visual Identity Design - Tapovan Farms, needed a cohesive, professional, and visually striking strategy to establish brand trust in their industry. The existing visuals lacked coordination, creating friction for new customer acquisitions and brand recognition.",
+      "solution": "We designed a unified design system that centers around custom-tailored visual assets. This system provides clear guidelines for typography hierarchy, a structured brand color palette, and high-fidelity layouts across all digital and print touchpoints, allowing Visual Identity Design - Tapovan Farms to communicate premium quality at a glance.",
+      "results": "Following the launch of the new identity system, Visual Identity Design - Tapovan Farms experienced a significant increase in client trust, a unified presentation across their team, and a highly polished professional footprint that sets them apart from competitors."
+    },
+    "slides": [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/cd618f243086195.697a3ae87a444.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/0bd77c243086195.697a3ae532237.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/95486e243086195.697a3ae532a5b.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/55d523243086195.697a3ae620578.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/2f5878243086195.697a3ae61fd5c.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/4173e9243086195.697a3ae71f568.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/c4aa12243086195.697a3ae71fbbe.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/20116e243086195.697a3ae87ac34.png"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Visual Identity Design - Skanda Foods",
+    "slug": "visual-identity-design-skanda-foods",
+    "category": "Brand Identity",
+    "coverImage": "https://mir-s3-cdn-cf.behance.net/projects/404/18bfd9243090053.Y3JvcCwxMTYwLDkwOCwxMDAsMA.png",
+    "tags": [
+      "Brand Guidelines",
+      "Visual Strategy",
+      "Typography System"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/243090053/Visual-Identity-Design-Skanda-Foods",
+    "caseStudy": {
+      "client": "Visual Identity Design - Skanda Foods",
+      "year": "2026",
+      "services": "Brand Guidelines, Visual Strategy, Typography System",
+      "challenge": "The client, Visual Identity Design - Skanda Foods, needed a cohesive, professional, and visually striking strategy to establish brand trust in their industry. The existing visuals lacked coordination, creating friction for new customer acquisitions and brand recognition.",
+      "solution": "We designed a unified design system that centers around custom-tailored visual assets. This system provides clear guidelines for typography hierarchy, a structured brand color palette, and high-fidelity layouts across all digital and print touchpoints, allowing Visual Identity Design - Skanda Foods to communicate premium quality at a glance.",
+      "results": "Following the launch of the new identity system, Visual Identity Design - Skanda Foods experienced a significant increase in client trust, a unified presentation across their team, and a highly polished professional footprint that sets them apart from competitors."
+    },
+    "slides": [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/2bd41c243090053.697a4822006e6.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/ff2cb8243090053.697a482202dc6.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/5d3778243090053.697a482201b9b.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/09366f243090053.697a482201385.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/9c0c7d243090053.697a4822023c3.png"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "SilverWoods by Sanjeevani Farms",
+    "slug": "silverwoods-by-sanjeevani-farms",
+    "category": "Brand Identity",
+    "coverImage": "https://mir-s3-cdn-cf.behance.net/projects/404/731ed1242979777.Y3JvcCwzMTcxLDI0ODEsMTY0LDA.jpg",
+    "tags": [
+      "Brand Guidelines",
+      "Visual Strategy",
+      "Typography System"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/242979777/SilverWoods-by-Sanjeevani-Farms",
+    "caseStudy": {
+      "client": "SilverWoods by Sanjeevani Farms",
+      "year": "2026",
+      "services": "Brand Guidelines, Visual Strategy, Typography System",
+      "challenge": "The client, SilverWoods by Sanjeevani Farms, needed a cohesive, professional, and visually striking strategy to establish brand trust in their industry. The existing visuals lacked coordination, creating friction for new customer acquisitions and brand recognition.",
+      "solution": "We designed a unified design system that centers around custom-tailored visual assets. This system provides clear guidelines for typography hierarchy, a structured brand color palette, and high-fidelity layouts across all digital and print touchpoints, allowing SilverWoods by Sanjeevani Farms to communicate premium quality at a glance.",
+      "results": "Following the launch of the new identity system, SilverWoods by Sanjeevani Farms experienced a significant increase in client trust, a unified presentation across their team, and a highly polished professional footprint that sets them apart from competitors."
+    },
+    "slides": [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/c54563242979777.6978806d05dea.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/41833c242979777.6978806d0a1e0.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/8f756b242979777.6978806d06346.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/e096cf242979777.6978806d0782a.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/424511242979777.6978806d07235.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/a7803f242979777.6978806d07eed.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/80bbcf242979777.6978806d06b2f.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/8dab5f242979777.6978806d08d64.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/137d3a242979777.6978806d09bc2.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/e1fa82242979777.6978806d094ff.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/f9e355242979777.6978806d0a8d9.jpg",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/1ce968242979777.6978806d0868d.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Vasundhara by Sanjeevani Farms",
+    "slug": "vasundhara-by-sanjeevani-farms",
+    "category": "Brand Identity",
+    "coverImage": "https://mir-s3-cdn-cf.behance.net/projects/404/419ebb242979967.Y3JvcCw5NjAsNzUxLDcxLDA.png",
+    "tags": [
+      "Brand Guidelines",
+      "Visual Strategy",
+      "Typography System"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/242979967/Vasundhara-by-Sanjeevani-Farms",
+    "caseStudy": {
+      "client": "Vasundhara by Sanjeevani Farms",
+      "year": "2026",
+      "services": "Brand Guidelines, Visual Strategy, Typography System",
+      "challenge": "The client, Vasundhara by Sanjeevani Farms, needed a cohesive, professional, and visually striking strategy to establish brand trust in their industry. The existing visuals lacked coordination, creating friction for new customer acquisitions and brand recognition.",
+      "solution": "We designed a unified design system that centers around custom-tailored visual assets. This system provides clear guidelines for typography hierarchy, a structured brand color palette, and high-fidelity layouts across all digital and print touchpoints, allowing Vasundhara by Sanjeevani Farms to communicate premium quality at a glance.",
+      "results": "Following the launch of the new identity system, Vasundhara by Sanjeevani Farms experienced a significant increase in client trust, a unified presentation across their team, and a highly polished professional footprint that sets them apart from competitors."
+    },
+    "slides": [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/hd/51acee242979967.6978813d7350c.png"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Social Media Post (135743521)",
+    "slug": "social-media-post-135743521",
+    "category": "Social Media",
+    "coverImage": "https://mir-s3-cdn-cf.behance.net/projects/404/5630a8135743521.Y3JvcCwxMzY1LDEwNjcsMCw2.png",
+    "tags": [
+      "Ad Creative",
+      "Marketing Visuals",
+      "Social Grid"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/135743521/Social-Media-Post",
+    "caseStudy": {
+      "client": "Social Media Post (135743521)",
+      "year": "2026",
+      "services": "Ad Creative, Marketing Visuals, Social Grid",
+      "challenge": "The client, Social Media Post (135743521), needed a cohesive, professional, and visually striking strategy to establish brand trust in their industry. The existing visuals lacked coordination, creating friction for new customer acquisitions and brand recognition.",
+      "solution": "We designed a unified design system that centers around custom-tailored visual assets. This system provides clear guidelines for typography hierarchy, a structured brand color palette, and high-fidelity layouts across all digital and print touchpoints, allowing Social Media Post (135743521) to communicate premium quality at a glance.",
+      "results": "Following the launch of the new identity system, Social Media Post (135743521) experienced a significant increase in client trust, a unified presentation across their team, and a highly polished professional footprint that sets them apart from competitors."
+    },
+    "slides": [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/ae2213135743521.61ed737e2f80f.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/341f8f135743521.61ed737e2e7a5.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/59790e135743521.61ed737e2efcb.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/b53f68135743521.61ed737e30c38.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/a6b465135743521.61ed737e2dfb6.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/497dc1135743521.61ed737e3069d.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/b76e50135743521.61ed737e2fee5.png"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Social Media Post (243084831)",
+    "slug": "social-media-post-243084831",
+    "category": "Social Media",
+    "coverImage": "https://mir-s3-cdn-cf.behance.net/projects/404/eaa84c243084831.Y3JvcCwxNDAwLDEwOTUsMCw0NQ.png",
+    "tags": [
+      "Ad Creative",
+      "Marketing Visuals",
+      "Social Grid"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/243084831/Social-Media-Post",
+    "caseStudy": {
+      "client": "Social Media Post (243084831)",
+      "year": "2026",
+      "services": "Ad Creative, Marketing Visuals, Social Grid",
+      "challenge": "The client, Social Media Post (243084831), needed a cohesive, professional, and visually striking strategy to establish brand trust in their industry. The existing visuals lacked coordination, creating friction for new customer acquisitions and brand recognition.",
+      "solution": "We designed a unified design system that centers around custom-tailored visual assets. This system provides clear guidelines for typography hierarchy, a structured brand color palette, and high-fidelity layouts across all digital and print touchpoints, allowing Social Media Post (243084831) to communicate premium quality at a glance.",
+      "results": "Following the launch of the new identity system, Social Media Post (243084831) experienced a significant increase in client trust, a unified presentation across their team, and a highly polished professional footprint that sets them apart from competitors."
+    },
+    "slides": [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/ea72b4243084831.697a364e27865.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/7ffaaf243084831.697a364e271a0.png"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Social Media Post Design (139830747)",
+    "slug": "social-media-post-design-139830747",
+    "category": "Social Media",
+    "coverImage": "https://mir-s3-cdn-cf.behance.net/projects/404/d2ef3a139830747.Y3JvcCwzMzY4LDI2MzQsMCww.png",
+    "tags": [
+      "Ad Creative",
+      "Marketing Visuals",
+      "Social Grid"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/139830747/Social-Media-Post-Design",
+    "caseStudy": {
+      "client": "Social Media Post Design (139830747)",
+      "year": "2026",
+      "services": "Ad Creative, Marketing Visuals, Social Grid",
+      "challenge": "The client, Social Media Post Design (139830747), needed a cohesive, professional, and visually striking strategy to establish brand trust in their industry. The existing visuals lacked coordination, creating friction for new customer acquisitions and brand recognition.",
+      "solution": "We designed a unified design system that centers around custom-tailored visual assets. This system provides clear guidelines for typography hierarchy, a structured brand color palette, and high-fidelity layouts across all digital and print touchpoints, allowing Social Media Post Design (139830747) to communicate premium quality at a glance.",
+      "results": "Following the launch of the new identity system, Social Media Post Design (139830747) experienced a significant increase in client trust, a unified presentation across their team, and a highly polished professional footprint that sets them apart from competitors."
+    },
+    "slides": [
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/81c1f6139830747.6236f65ddff9d.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/10a3fc139830747.6236f65de1a53.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/f1f2b7139830747.6236f65ddf98e.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/19d5d7139830747.6236f65de056c.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/d4eeb7139830747.6236f65de11ac.png",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/24d606139830747.6236f65de0b35.png"
+    ]
+  }
+]
