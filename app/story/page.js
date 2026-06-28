@@ -121,7 +121,7 @@ export default function StoryPage() {
   return (
     <div className="blueprint-grid min-h-screen pt-12 pb-24 relative z-10">
       {/* Hero Header */}
-      <section className="py-20 bg-surface/10">
+      <section className="py-10 bg-surface/10">
         <div className="max-w-[1400px] mx-auto px-6 md:px-12">
           <span className="font-body text-xs font-bold text-purple tracking-widest uppercase block mb-4">
             Our Story
@@ -136,7 +136,7 @@ export default function StoryPage() {
       </section>
 
       {/* Main Narrative Split Screen */}
-      <section className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 pt-20">
+      <section className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 pt-10">
         {/* Left Side: Chapter Navigation Menu */}
         <div className="lg:col-span-4 flex flex-col gap-4 border-r border-border/40 pr-6 lg:h-[70vh] lg:sticky lg:top-28 overflow-y-auto">
           <span className="font-body text-sm font-bold text-muted tracking-widest uppercase mb-4 block">
@@ -193,7 +193,7 @@ export default function StoryPage() {
       </section>
 
       {/* WHY US - AFTER THE STORY */}
-      <section className="border-t border-border mt-24 pt-24 bg-surface/10">
+      <section className="mt-12 pt-12 bg-surface/10">
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 mb-16">
           <div className="lg:col-span-4 font-body text-xs font-bold text-purple tracking-widest uppercase">
             The Honest Answer

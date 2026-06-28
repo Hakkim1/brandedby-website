@@ -219,7 +219,7 @@ export default function HomePage() {
       </section>
 
       {/* 3. MISSION STATEMENT */}
-      <section className="py-24 border-b border-border bg-bg relative z-10">
+      <section className="py-24 bg-bg relative z-10">
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12">
           <div className="lg:col-span-4 font-body text-xs sm:text-sm font-bold text-purple tracking-widest uppercase">
             Why We Exist
@@ -236,7 +236,7 @@ export default function HomePage() {
       </section>
 
       {/* 4. SERVICES ACCORDION */}
-      <section className="py-24 border-b border-border bg-surface/10 relative z-10">
+      <section className="py-24 bg-surface/10 relative z-10">
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 mb-16">
           <div className="lg:col-span-4 font-body text-xs sm:text-sm font-bold text-purple tracking-widest uppercase">
             What We Do
@@ -302,7 +302,7 @@ export default function HomePage() {
       </section>
 
       {/* 5. FEATURED WORK */}
-      <section className="py-24 border-b border-border bg-bg relative z-10">
+      <section className="py-24 bg-bg relative z-10">
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 mb-16">
           <div className="lg:col-span-4 font-body text-xs sm:text-sm font-bold text-purple tracking-widest uppercase">
             Our Work
@@ -373,7 +373,7 @@ export default function HomePage() {
       </section>
 
       {/* 6. WHY BRANDEDBY STUDIOS */}
-      <section className="py-24 border-b border-border bg-surface/10 relative z-10">
+      <section className="py-24 bg-surface/10 relative z-10">
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 mb-16">
           <div className="lg:col-span-4 font-body text-xs sm:text-sm font-bold text-purple tracking-widest uppercase">
             Why Us
@@ -429,7 +429,7 @@ export default function HomePage() {
       </section>
 
       {/* 7. INSIGHTS HUB PREVIEW */}
-      <section className="py-24 border-b border-border bg-bg relative z-10">
+      <section className="py-24 bg-bg relative z-10">
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 mb-16">
           <div className="lg:col-span-4 font-body text-xs sm:text-sm font-bold text-purple tracking-widest uppercase">
             Learn Branding
@@ -509,7 +509,7 @@ export default function HomePage() {
       </section>
 
       {/* 8. FREE RESOURCE capture banner */}
-      <section className="py-24 border-b border-border bg-surface/10 relative z-10">
+      <section className="py-24 bg-surface/10 relative z-10">
         <div className="max-w-[1000px] mx-auto px-6 text-center flex flex-col items-center gap-6">
           <span className="font-body text-xs sm:text-sm font-bold text-purple tracking-widest uppercase">Free Resource</span>
           <h2 className="font-heading font-extrabold text-3xl sm:text-5xl tracking-tight leading-tight">

@@ -43,7 +43,7 @@ export default function ContactPage() {
     <div className="blueprint-grid min-h-screen pt-12 pb-24 relative z-10">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12">
         {/* Header section */}
-        <section className="py-20 border-b border-border bg-surface/10 mb-16">
+        <section className="py-20 bg-surface/10 mb-16">
           <span className="font-body text-sm font-bold text-purple tracking-widest uppercase block mb-4">
             Get in Touch
           </span>
@@ -247,7 +247,7 @@ export default function ContactPage() {
       </div>
 
       {/* Calendly Booking Section */}
-      <section className="mt-24 pt-20 max-w-[1000px] mx-auto px-6 text-center border-t border-border">
+      <section className="mt-12 pt-12 max-w-[1000px] mx-auto px-6 text-center">
         <span className="font-body text-sm font-bold text-purple tracking-widest uppercase block mb-4">
           Direct Booking
         </span>
