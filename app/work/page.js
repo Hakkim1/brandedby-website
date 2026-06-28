@@ -15,6 +15,9 @@ export default function WorkPage() {
   // Map user tabs to project categories
   const filteredProjects = projectsData.filter((project) => {
     if (activeTab === "All") return true;
+    if (Array.isArray(project.categories)) {
+      return project.categories.includes(activeTab);
+    }
     return project.category === activeTab;
   });
 
@@ -91,7 +94,7 @@ export default function WorkPage() {
                 <div className="p-6 border-t border-border flex justify-between items-center bg-surface-2/30">
                   <div>
                     <span className="font-body text-xs uppercase tracking-widest text-purple font-bold block mb-1">
-                      {project.category}
+                      {Array.isArray(project.categories) ? project.categories.join(" / ") : project.category}
                     </span>
                     <h4 className="font-heading font-extrabold text-lg text-primary">
                       {project.name}

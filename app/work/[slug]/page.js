@@ -46,7 +46,9 @@ export default function ProjectCaseStudyPage({ params }) {
           <div className="text-xs text-muted font-mono">
             <span>Portfolio</span>
             <span className="mx-2">/</span>
-            <span className="text-secondary">{project.category}</span>
+            <span className="text-secondary">
+              {Array.isArray(project.categories) ? project.categories.join(" & ") : project.category}
+            </span>
             <span className="mx-2">/</span>
             <span className="text-purple font-semibold">{project.caseStudy.client}</span>
           </div>
@@ -56,7 +58,7 @@ export default function ProjectCaseStudyPage({ params }) {
       {/* Case Hero Header */}
       <section className="max-w-[1400px] mx-auto px-6 md:px-12 pt-8 pb-12">
         <span className="font-body text-xs font-bold text-purple tracking-widest uppercase block mb-3">
-          {project.category} Case Study
+          {Array.isArray(project.categories) ? project.categories.join(" & ") : project.category} Case Study
         </span>
         <h1 className="font-heading font-extrabold text-3xl sm:text-5xl md:text-6xl tracking-tighter leading-tight max-w-4xl text-left text-primary">
           {project.name}
@@ -171,7 +173,7 @@ export default function ProjectCaseStudyPage({ params }) {
               {nextProject.name}
             </h3>
             <span className="font-body text-xs text-purple font-semibold mt-1 block uppercase tracking-wider">
-              {nextProject.category}
+              {Array.isArray(nextProject.categories) ? nextProject.categories.join(" & ") : nextProject.category}
             </span>
           </div>
           <Link 
