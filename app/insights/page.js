@@ -47,7 +47,7 @@ export default function InsightsPage() {
       </section>
 
       {/* Featured Insight Card Section */}
-      <section className="max-w-[1400px] mx-auto px-6 md:px-12 pt-6">
+      <section className="max-w-[1400px] mx-auto px-6 md:px-12 pt-12">
         <div className="border border-border rounded-none bg-surface p-8 md:p-12 relative overflow-hidden shadow-xl">
           <div className="absolute top-0 right-0 p-4 font-body text-xs text-purple-light font-bold tracking-wider uppercase">
             Featured Insight
