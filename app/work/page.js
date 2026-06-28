@@ -74,31 +74,31 @@ export default function WorkPage() {
               <Link
                 key={project.id}
                 href={`/work/${project.slug}`}
-                className="group relative bg-surface border border-border rounded-none overflow-hidden flex flex-col justify-between shadow-lg cursor-pointer"
+                className="group relative bg-surface border border-border rounded-none overflow-hidden flex flex-col justify-between shadow-lg cursor-pointer aspect-square"
               >
                 {/* Image Block */}
-                <div className="w-full aspect-square overflow-hidden relative">
+                <div className="w-full flex-1 min-h-0 overflow-hidden relative">
                   <img
                     src={project.coverImage}
                     alt={project.name}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                    className="w-full h-[108%] object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]"
                   />
                 </div>
 
                 {/* Text Info */}
-                <div className="p-6 flex justify-between items-center bg-surface-2/30">
-                  <div>
-                    <span className="font-body text-xs uppercase tracking-widest text-purple font-bold block mb-1">
+                <div className="p-5 h-[155px] flex justify-between items-center bg-surface-2/30 border-t border-border shrink-0">
+                  <div className="flex-1 min-w-0 pr-4">
+                    <span className="font-body text-[10px] sm:text-xs uppercase tracking-widest text-purple font-bold block mb-1 truncate">
                       {Array.isArray(project.categories) ? project.categories.join(" / ") : project.category}
                     </span>
-                    <h4 className="font-heading font-extrabold text-lg text-primary">
+                    <h4 className="font-heading font-extrabold text-base sm:text-lg text-primary line-clamp-2 leading-tight" title={project.name}>
                       {project.name}
                     </h4>
-                    <div className="flex flex-wrap gap-2 mt-3">
-                      {project.tags.map((tag) => (
+                    <div className="flex flex-wrap gap-1.5 mt-2 overflow-hidden h-[24px]">
+                      {project.tags.slice(0, 3).map((tag) => (
                         <span
                           key={tag}
-                          className="font-body text-xs text-muted border border-border bg-surface-3 px-2 py-0.5 rounded-none"
+                          className="font-body text-[10px] text-muted border border-border bg-surface-3 px-2 py-0.5 rounded-none whitespace-nowrap"
                         >
                           {tag}
                         </span>

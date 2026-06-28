@@ -332,28 +332,38 @@ export default function HomePage() {
             <Link
               key={project.id}
               href={`/work/${project.slug}`}
-              className="group relative bg-surface border border-border rounded-none glow-border overflow-hidden flex flex-col justify-between shadow-lg cursor-pointer animate-fade-in"
+              className="group relative bg-surface border border-border rounded-none glow-border overflow-hidden flex flex-col justify-between shadow-lg cursor-pointer animate-fade-in aspect-square"
             >
               {/* Image Block */}
-              <div className="w-full aspect-square overflow-hidden relative">
+              <div className="w-full flex-1 min-h-0 overflow-hidden relative">
                 <img
                   src={project.coverImage}
                   alt={project.name}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                  className="w-full h-[108%] object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]"
                 />
               </div>
 
               {/* Text Info */}
-              <div className="p-6 flex justify-between items-center bg-surface-2/30">
-                <div>
-                  <span className="font-body text-xs font-bold uppercase tracking-wider text-purple block mb-1">
+              <div className="p-5 h-[155px] flex justify-between items-center bg-surface-2/30 border-t border-border shrink-0">
+                <div className="flex-1 min-w-0 pr-4">
+                  <span className="font-body text-[10px] sm:text-xs font-bold uppercase tracking-wider text-purple block mb-1 truncate">
                     {project.category}
                   </span>
-                  <h4 className="font-heading font-bold text-base text-primary">
+                  <h4 className="font-heading font-extrabold text-base sm:text-lg text-primary line-clamp-2 leading-tight">
                     {project.name}
                   </h4>
+                  <div className="flex flex-wrap gap-1.5 mt-2 overflow-hidden h-[24px]">
+                    {project.tags && project.tags.slice(0, 3).map((tag) => (
+                      <span
+                        key={tag}
+                        className="font-body text-[10px] text-muted border border-border bg-surface-3 px-2 py-0.5 rounded-none whitespace-nowrap"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
                 </div>
-                <div className="w-8 h-8 rounded-none border border-border flex items-center justify-center group-hover:border-purple group-hover:bg-purple/10 transition-colors">
+                <div className="w-8 h-8 rounded-none border border-border flex items-center justify-center group-hover:border-purple group-hover:bg-purple/10 transition-colors shrink-0">
                   <ArrowRight className="w-3.5 h-3.5 text-secondary group-hover:text-purple transition-colors" />
                 </div>
               </div>
