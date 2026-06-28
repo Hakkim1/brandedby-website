@@ -30,24 +30,24 @@ export default function InsightsPage() {
   };
 
   return (
-    <div className="blueprint-grid min-h-screen pt-12 pb-24 relative z-10">
+    <div className="blueprint-grid min-h-screen pt-12 pb-8 relative z-10">
       {/* Header section */}
-      <section className="py-20 bg-surface/10">
+      <section className="py-8 bg-surface/10">
         <div className="max-w-[1400px] mx-auto px-6 md:px-12">
           <span className="font-body text-xs font-bold text-purple tracking-widest uppercase block mb-4">
             Daily Insights
           </span>
-          <h1 className="font-heading font-extrabold text-3xl sm:text-5xl md:text-6xl tracking-tighter leading-tight max-w-4xl text-left">
+          <h1 className="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl tracking-tighter leading-tight max-w-4xl text-left">
             Learn What Most Founders Learn Too Late.
           </h1>
-          <p className="text-secondary text-base font-normal max-w-2xl mt-6">
+          <p className="text-secondary text-sm font-normal max-w-2xl mt-3">
             One branding insight, every day. For new business founders who want to understand what makes a brand actually work — before they get it wrong.
           </p>
         </div>
       </section>
 
       {/* Featured Insight Card Section */}
-      <section className="max-w-[1400px] mx-auto px-6 md:px-12 pt-16">
+      <section className="max-w-[1400px] mx-auto px-6 md:px-12 pt-6">
         <div className="border border-border rounded-none bg-surface p-8 md:p-12 relative overflow-hidden shadow-xl">
           <div className="absolute top-0 right-0 p-4 font-body text-xs text-purple-light font-bold tracking-wider uppercase">
             Featured Insight
