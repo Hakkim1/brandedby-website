@@ -16,6 +16,7 @@ export default function StoryPage() {
       id: "01",
       title: "Two Different Worlds, One Shared Hunger",
       tagline: "Searching without a map",
+      metaphor: "Two Separate Worlds",
       text: [
         "We came from different places. Different years in college. Different backgrounds.",
         "But we had the same hunger — the kind that doesn't sit still, that keeps asking 'what else?' and 'what if?' when everyone else is satisfied with the answer they've been given.",
@@ -27,6 +28,7 @@ export default function StoryPage() {
       id: "02",
       title: "A Professor, A Phone Number, A Beginning",
       tagline: "Connecting across classes",
+      metaphor: "Communication Line",
       text: [
         "A professor connected us — a simple act that neither of us could have planned.",
         "One phone number. Two people who had never met.",
@@ -39,6 +41,7 @@ export default function StoryPage() {
       id: "03",
       title: "The Conversations That Built Us",
       tagline: "Sharing knowledge, building brotherhood",
+      metaphor: "Intertwined Brotherhood",
       text: [
         "We didn't talk the way most people our age talked.",
         "We talked about businesses. About branding. About marketing. About what the future could look like if you actually built something instead of waiting for it to arrive.",
@@ -51,6 +54,7 @@ export default function StoryPage() {
       id: "04",
       title: "The Lockdown That Tested Everything",
       tagline: "420 hours of commanders in battle",
+      metaphor: "Anchored in Battle",
       text: [
         "Then COVID came. College closed. We went back to our homes — separated by distance for seven months, with no idea when we'd be back.",
         "Most bonds don't survive that kind of silence. Ours refused to.",
@@ -64,6 +68,7 @@ export default function StoryPage() {
       id: "05",
       title: "Bangalore, Broken Promises, and Walking Away Together",
       tagline: "Knowing what we are worth",
+      metaphor: "Clean Break & Departure",
       text: [
         "When lockdown ended, we came to Bangalore.",
         "We joined a company together. Same office. Same mission. Two people building side by side.",
@@ -76,6 +81,7 @@ export default function StoryPage() {
       id: "06",
       title: "The Years We Built Separately",
       tagline: "Cybersecurity and design foundations",
+      metaphor: "Parallel Pillars",
       text: [
         "Our paths split after that.",
         "One of us went to Kerala to teach cybersecurity to military personnel — taking everything he knew and pouring it into shaping others.",
@@ -88,6 +94,7 @@ export default function StoryPage() {
       id: "07",
       title: "One Conversation That Changed Everything",
       tagline: "The return to Bangalore",
+      metaphor: "Reconnecting Paths",
       text: [
         "He moved back to Bangalore.",
         "We sat down and talked — the same way we always had. Seriously. About where we were. About where we wanted to be. About how a job, no matter how good, would never get us there fast enough.",
@@ -102,6 +109,7 @@ export default function StoryPage() {
       id: "08",
       title: "Why We Do This",
       tagline: "For every founder starting with nothing",
+      metaphor: "Unified Brandedby",
       text: [
         "Eight years of friendship. Eight years of conversations that went deeper than most people go in a lifetime. Eight years of learning, failing, rebuilding — side by side and separately.",
         "When we started our journeys, nobody guided us. Nobody told us what branding was, why it mattered, or how to build something that people would actually trust.",
@@ -193,7 +201,7 @@ export default function StoryPage() {
           </span>
           <StoryCanvas activeChapter={activeChapter} />
           <span className="font-body text-xs text-purple font-bold uppercase tracking-wider text-center mt-2">
-            ● Object ID: {activeChapter + 1} Metaphor
+            ● Metaphor: {chapters[activeChapter].metaphor}
           </span>
         </div>
       </section>
