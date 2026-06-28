@@ -35,9 +35,6 @@ export default function WorkPage() {
           <p className="text-secondary text-base font-normal max-w-2xl mt-6">
             Each project here began with a founder who had a vision and needed someone to bring it to life. We were that someone.
           </p>
-          <div className="mt-8 p-4 bg-surface/60 border border-border text-xs text-muted leading-relaxed rounded-none inline-block max-w-xl">
-            ● CASE STUDY NOTE: The following cases outline design strategy and creative execution blueprints. Full source assets are linked.
-          </div>
         </div>
       </section>
 
