@@ -139,7 +139,7 @@ export default function ProjectCaseStudyPage({ params }) {
       </section>
 
       {/* Case Slides Vertical Presentation */}
-      <section className="bg-surface-2/20 border-t border-b border-border py-16">
+      <section className="bg-surface-2/20 py-16">
         <div className="max-w-[1200px] mx-auto px-4 md:px-8">
           <div className="text-center mb-10">
             <span className="font-mono text-[10px] text-muted tracking-widest uppercase block mb-1">Visual presentation</span>
