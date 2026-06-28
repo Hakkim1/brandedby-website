@@ -1,6 +1,6 @@
 export const insights = [
   {
-    slug: "one-thing-every-new business-gets-wrong",
+    slug: "one-thing-every-new-business-gets-wrong",
     title: "The One Thing Every New Business Gets Wrong About Branding",
     category: "Brand Strategy",
     date: "June 09, 2026",

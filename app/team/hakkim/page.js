@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, Layers, LayoutGrid, Image as ImageIcon, Video } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { ScrambleText } from "@/components/Navbar";
 
 export default function HakkimProfilePage() {
@@ -114,16 +114,8 @@ export default function HakkimProfilePage() {
                 key={work.id}
                 className="group p-6 bg-surface border border-border rounded-none flex flex-col justify-between min-h-64 hover:border-purple/40 transition-colors shadow-lg"
               >
-                <div className={`w-full h-32 bg-gradient-to-br ${work.color} rounded-none flex items-center justify-center`}>
-                  {work.type === "Brand Identity" && <LayoutGrid className="w-8 h-8 text-primary/30" />}
-                  {work.type === "Logo Design" && <Layers className="w-8 h-8 text-primary/30" />}
-                  {work.type === "Graphic Design" && <Video className="w-8 h-8 text-primary/30" />}
-                  {work.type === "Photography" && <ImageIcon className="w-8 h-8 text-primary/30" />}
-                </div>
+                <div className={`w-full h-32 bg-gradient-to-br ${work.color} rounded-none`} />
                 <div className="mt-4">
-                  <span className="font-body text-xs font-bold text-purple tracking-wider block uppercase">
-                    {work.type}
-                  </span>
                   <h4 className="font-heading font-bold text-sm text-primary mt-1">
                     {work.name}
                   </h4>

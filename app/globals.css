@@ -107,7 +107,7 @@ body::before {
                     linear-gradient(90deg, var(--grid-line-color) 1px, transparent 1px);
   background-size: 50px 50px;
   pointer-events: none;
-  z-index: 0;
+  z-index: -1;
 }
 
 /* Background vertical lines */
@@ -119,7 +119,7 @@ body::before {
   display: grid;
   grid-template-columns: 2.75rem 1fr 1fr 1fr 1fr 2.75rem;
   pointer-events: none;
-  z-index: 1;
+  z-index: 0;
 }
 
 .body-line {

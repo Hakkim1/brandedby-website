@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, Sparkles, Target } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { ScrambleText } from "@/components/Navbar";
 
 export default function TeamPage() {
@@ -10,21 +10,17 @@ export default function TeamPage() {
       name: "Hakkim Ibrahim",
       role: "Founder & Creative Director",
       slug: "hakkim",
-      tags: ["Brand", "Design", "Vision"],
       quote: "Every brand we touch should have a soul, not just a logo.",
       skills: ["Branding", "Graphic Design", "Video Editing", "Photography"],
       gradient: "linear-gradient(135deg, #7d68f8 0%, #14141E 100%)",
-      icon: <Sparkles className="w-5 h-5 text-purple" />,
     },
     {
       name: "Bhuvanesh",
       role: "Co-Founder & CMO",
       slug: "bhuvanesh",
-      tags: ["Strategy", "Growth", "Clarity"],
       quote: "Growth isn't accidental. We make it intentional.",
       skills: ["Full Stack Marketing", "Brand Consulting", "Ad Campaigns", "Copywriting"],
       gradient: "linear-gradient(135deg, #9f91fa 0%, #14141E 100%)",
-      icon: <Target className="w-5 h-5 text-purple" />,
     },
   ];
 
@@ -54,28 +50,14 @@ export default function TeamPage() {
               className="bg-surface border border-border rounded-none flex flex-col p-8 justify-between relative overflow-hidden shadow-xl"
             >
               <div>
-                {/* 3D abstract person placeholder */}
+                {/* Photo placeholder */}
                 <div
-                  className="w-full h-72 md:h-80 rounded-none flex items-center justify-center relative mb-6 overflow-hidden"
+                  className="w-full h-56 rounded-none mb-6 overflow-hidden relative"
                   style={{ background: member.gradient }}
                 >
                   <div className="absolute top-4 left-4 font-body text-xs font-semibold text-muted tracking-wide uppercase bg-bg/85 border border-border px-3.5 py-1.5 rounded-none shadow-md">
                     Founder Profile Avatar
                   </div>
-                  <div className="w-16 h-16 rounded-none bg-bg/60 border border-border flex items-center justify-center backdrop-blur-sm shadow-md">
-                    {member.icon}
-                  </div>
-                </div>
-
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {member.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="font-body text-xs font-bold text-purple bg-purple/10 border border-purple/20 px-3 py-1 rounded-none"
-                    >
-                      {tag}
-                    </span>
-                  ))}
                 </div>
 
                 <h3 className="font-heading font-extrabold text-2xl text-primary mb-1">
@@ -91,7 +73,7 @@ export default function TeamPage() {
 
                 <div className="flex flex-col gap-2 mb-8">
                   <span className="font-body text-sm font-bold text-muted uppercase tracking-wider mb-1">
-                    Expertise Coordinates
+                    Expertise
                   </span>
                   <div className="flex flex-wrap gap-2">
                     {member.skills.map((skill) => (
