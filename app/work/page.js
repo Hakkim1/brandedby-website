@@ -77,21 +77,16 @@ export default function WorkPage() {
                 className="group relative bg-surface border border-border rounded-none overflow-hidden flex flex-col justify-between shadow-lg cursor-pointer"
               >
                 {/* Image Block */}
-                <div className="w-full h-64 md:h-80 overflow-hidden relative">
+                <div className="w-full aspect-square overflow-hidden relative">
                   <img
                     src={project.coverImage}
                     alt={project.name}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                   />
-                  <div className="absolute inset-0 bg-bg/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                    <span className="font-body text-xs font-semibold uppercase tracking-wider text-primary bg-bg/85 border border-border px-5 py-2.5 rounded-none">
-                      View Case Study
-                    </span>
-                  </div>
                 </div>
 
                 {/* Text Info */}
-                <div className="p-6 border-t border-border flex justify-between items-center bg-surface-2/30">
+                <div className="p-6 flex justify-between items-center bg-surface-2/30">
                   <div>
                     <span className="font-body text-xs uppercase tracking-widest text-purple font-bold block mb-1">
                       {Array.isArray(project.categories) ? project.categories.join(" / ") : project.category}
