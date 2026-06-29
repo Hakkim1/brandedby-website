@@ -10,7 +10,7 @@ export default function ContactPage() {
     email: "",
     phone: "",
     service: "Brand Identity",
-    budget: "?15,000�?50,000",
+    budget: "₹15,000–₹50,000",
     message: "",
   });
 
@@ -51,7 +51,7 @@ export default function ContactPage() {
             Let's Build Something Real.
           </h1>
           <p className="text-secondary text-base font-normal max-w-2xl mt-6">
-            We've been where you are. Tell us about your brand - and let's figure out the next step together.
+            We've been where you are. Tell us about your brand — and let's figure out the next step together.
           </p>
         </section>
 
@@ -70,7 +70,7 @@ export default function ContactPage() {
               </div>
               <div className="flex items-center gap-3 font-body text-sm text-secondary">
                 <MapPin className="w-4 h-4 text-purple shrink-0" />
-                <span>India � Working Globally</span>
+                <span>India · Working Globally</span>
               </div>
               <div className="flex items-center gap-3 font-body text-sm">
                 <ExternalLink className="w-4 h-4 text-purple shrink-0" />
@@ -192,10 +192,10 @@ export default function ContactPage() {
                     onChange={handleInputChange}
                     className="w-full bg-surface-2 border border-border focus:border-purple focus:ring-1 focus:ring-purple focus:outline-none p-3.5 rounded-none text-sm text-primary font-body cursor-pointer transition-all"
                   >
-                    <option value="Under ?15,000">Under ?15,000</option>
-                    <option value="?15,000�?50,000">?15,000�?50,000</option>
-                    <option value="?50,000�?1,00,000">?50,000�?1,00,000</option>
-                    <option value="?1,00,000+">?1,00,000+</option>
+                    <option value="Under ₹15,000">Under ₹15,000</option>
+                    <option value="₹15,000–₹50,000">₹15,000–₹50,000</option>
+                    <option value="₹50,000–₹1,00,000">₹50,000–₹1,00,000</option>
+                    <option value="₹1,00,000+">₹1,00,000+</option>
                     <option value="Let's discuss">Let's discuss</option>
                   </select>
                 </div>
@@ -246,13 +246,13 @@ export default function ContactPage() {
           <span>Prefer to Talk First?</span>
         </h2>
         <p className="text-secondary text-base max-w-md mx-auto mb-6">
-          Book a free 30-minute discovery call. No pitch - just a real conversation about your brand.
+          Book a free 30-minute discovery call. No pitch — just a real conversation about your brand.
         </p>
         <div className="font-body text-sm text-muted font-semibold uppercase tracking-wider mb-8 flex justify-center gap-4">
           <span>Free</span>
-          <span>�</span>
+          <span>·</span>
           <span>30 Minutes</span>
-          <span>�</span>
+          <span>·</span>
           <span>Evenings After 6:30 PM IST</span>
         </div>
         <a
