@@ -17,13 +17,13 @@ export default function Footer() {
         {/* Col 1: Brand Info */}
         <div className="flex flex-col gap-4">
           <Link href="/" className="flex items-center group w-max">
-            <Logo className="h-12 w-auto transition-transform duration-300 group-hover:scale-[1.02]" />
+            <Logo className="h-8 w-auto transition-transform duration-300 group-hover:scale-[1.02]" />
           </Link>
           <p className="text-muted text-xs leading-relaxed max-w-xs font-normal">
             Building premium visual identities and growth marketing systems for India's next generation of new businesses.
           </p>
           <div className="mt-2 font-body text-xs text-purple/60 uppercase tracking-wider font-semibold">
-            ● EST. 2025 // WORKING GLOBALLY
+            ● EST. 2026 // WORKING GLOBALLY
           </div>
         </div>
 

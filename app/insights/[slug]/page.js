@@ -49,7 +49,7 @@ export default function InsightDetailsPage({ params }) {
         </Link>
 
         {/* Article Header */}
-        <div className="border-b border-border/60 pb-8 mb-12">
+        <div className="pb-8 mb-12">
           <div className="flex items-center gap-4 font-body text-xs text-muted mb-4">
             <span className="flex items-center gap-1.5 font-semibold text-purple">
               <Tag className="w-3.5 h-3.5" />

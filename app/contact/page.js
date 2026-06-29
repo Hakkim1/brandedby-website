@@ -58,31 +58,22 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           {/* Left Column: Studio Info */}
           <div className="lg:col-span-4 flex flex-col gap-8">
-            <div className="p-6 bg-surface/40 border border-border rounded-none shadow-md flex flex-col gap-4">
+            <div className="p-6 bg-surface/40 border border-border rounded-none shadow-md flex flex-col gap-5">
               <span className="font-body text-sm font-bold text-purple tracking-widest uppercase block">
-                Service Hours
+                Contact
               </span>
-              <p className="text-secondary text-sm leading-relaxed font-normal">
-                We respond to texts and messages during the day (IST).
-              </p>
-              <p className="text-secondary text-sm leading-relaxed font-normal">
-                Discovery calls are scheduled in the evenings after 6:30 PM IST.
-              </p>
-            </div>
-
-            <div className="flex flex-col gap-4 font-body text-sm text-secondary">
-              <div className="flex items-center gap-3">
-                <Mail className="w-4 h-4 text-purple" />
-                <a href="mailto:brandedbystudio@gmail.com" className="hover:text-white transition-colors">
+              <div className="flex items-center gap-3 font-body text-sm text-secondary">
+                <Mail className="w-4 h-4 text-purple shrink-0" />
+                <a href="mailto:brandedbystudio@gmail.com" className="hover:text-purple transition-colors">
                   brandedbystudio@gmail.com
                 </a>
               </div>
-              <div className="flex items-center gap-3">
-                <MapPin className="w-4 h-4 text-purple" />
+              <div className="flex items-center gap-3 font-body text-sm text-secondary">
+                <MapPin className="w-4 h-4 text-purple shrink-0" />
                 <span>India · Working Globally</span>
               </div>
-              <div className="flex items-center gap-3 pt-2">
-                <ExternalLink className="w-4 h-4 text-purple" />
+              <div className="flex items-center gap-3 font-body text-sm">
+                <ExternalLink className="w-4 h-4 text-purple shrink-0" />
                 <a
                   href="https://behance.net/hiddengraphdesigns"
                   target="_blank"
