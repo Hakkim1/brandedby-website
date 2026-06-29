@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -16,7 +16,7 @@ export default function StoryPage() {
       metaphor: "Two Separate Worlds",
       text: [
         "We came from different places. Different years in college. Different backgrounds.",
-        "But we had the same hunger — the kind that doesn't sit still, that keeps asking 'what else?' and 'what if?' when everyone else is satisfied with the answer they've been given.",
+        "But we had the same hunger - the kind that doesn't sit still, that keeps asking 'what else?' and 'what if?' when everyone else is satisfied with the answer they've been given.",
         "Neither of us had a map. Neither of us had someone to tell us where we were going.",
         "We were both, in our own words, searching."
       ]
@@ -27,11 +27,11 @@ export default function StoryPage() {
       tagline: "Connecting across classes",
       metaphor: "Communication Line",
       text: [
-        "A professor connected us — a simple act that neither of us could have planned.",
+        "A professor connected us - a simple act that neither of us could have planned.",
         "One phone number. Two people who had never met.",
-        "For five to six months, we tried to meet in between classes, schedules, semesters — and kept missing each other. But we kept talking. Every day, on WhatsApp, we exchanged thoughts, ideas, questions, rabbit holes.",
+        "For five to six months, we tried to meet in between classes, schedules, semesters - and kept missing each other. But we kept talking. Every day, on WhatsApp, we exchanged thoughts, ideas, questions, rabbit holes.",
         "We didn't know it then, but we were already building something.",
-        "When we finally met in person — it felt less like meeting a stranger and more like recognizing someone you already knew."
+        "When we finally met in person - it felt less like meeting a stranger and more like recognizing someone you already knew."
       ]
     },
     {
@@ -42,7 +42,7 @@ export default function StoryPage() {
       text: [
         "We didn't talk the way most people our age talked.",
         "We talked about businesses. About branding. About marketing. About what the future could look like if you actually built something instead of waiting for it to arrive.",
-        "We roamed around college with our seniors, both of us absorbing everything we could. We shared everything we learned — no keeping score, no gatekeeping. If one of us figured something out, the other knew it by evening.",
+        "We roamed around college with our seniors, both of us absorbing everything we could. We shared everything we learned - no keeping score, no gatekeeping. If one of us figured something out, the other knew it by evening.",
         "That's how we operated. That's how we still operate.",
         "Our families noticed before we did. His family welcomed the other like a second son. So did ours. The bond stopped being a friendship long before we gave it a name. We became brothers."
       ]
@@ -53,11 +53,11 @@ export default function StoryPage() {
       tagline: "420 hours of commanders in battle",
       metaphor: "Anchored in Battle",
       text: [
-        "Then COVID came. College closed. We went back to our homes — separated by distance for seven months, with no idea when we'd be back.",
+        "Then COVID came. College closed. We went back to our homes - separated by distance for seven months, with no idea when we'd be back.",
         "Most bonds don't survive that kind of silence. Ours refused to.",
-        "Every evening at 5 PM — without fail, without exception — we called each other. Two hours. Every single day. For seven months.",
+        "Every evening at 5 PM - without fail, without exception - we called each other. Two hours. Every single day. For seven months.",
         "The format was simple: whatever each of us had learned that day, we shared. No wasted time. No small talk. Just two people pouring everything they had into the call and walking away smarter than they arrived.",
-        "Those 420 hours of calls weren't just about knowledge. When things got dark — and for both of us, that period had its dark stretches — we were each other's anchor. We kept each other honest. We kept each other moving.",
+        "Those 420 hours of calls weren't just about knowledge. When things got dark - and for both of us, that period had its dark stretches - we were each other's anchor. We kept each other honest. We kept each other moving.",
         "We were each other's commander in our hardest battles."
       ]
     },
@@ -71,7 +71,7 @@ export default function StoryPage() {
         "We joined a company together. Same office. Same mission. Two people building side by side.",
         "They didn't pay us our salaries.",
         "We both quit. Same day. Same decision.",
-        "No bitterness. No looking back. Just a shared understanding that some doors are worth closing — and that we were worth more than what was being offered."
+        "No bitterness. No looking back. Just a shared understanding that some doors are worth closing - and that we were worth more than what was being offered."
       ]
     },
     {
@@ -81,10 +81,10 @@ export default function StoryPage() {
       metaphor: "Parallel Pillars",
       text: [
         "Our paths split after that.",
-        "One of us went to Kerala to teach cybersecurity to military personnel — taking everything he knew and pouring it into shaping others.",
-        "The other built a design studio from scratch — client after client, brand after brand, learning what it really means to run something alone.",
+        "One of us went to Kerala to teach cybersecurity to military personnel - taking everything he knew and pouring it into shaping others.",
+        "The other built a design studio from scratch - client after client, brand after brand, learning what it really means to run something alone.",
         "We both grew. We both struggled. We both kept going.",
-        "For four years, we lived parallel lives — different industries, different cities, same hunger that had always connected us."
+        "For four years, we lived parallel lives - different industries, different cities, same hunger that had always connected us."
       ]
     },
     {
@@ -94,7 +94,7 @@ export default function StoryPage() {
       metaphor: "Reconnecting Paths",
       text: [
         "He moved back to Bangalore.",
-        "We sat down and talked — the same way we always had. Seriously. About where we were. About where we wanted to be. About how a job, no matter how good, would never get us there fast enough.",
+        "We sat down and talked - the same way we always had. Seriously. About where we were. About where we wanted to be. About how a job, no matter how good, would never get us there fast enough.",
         "One day, we both just said: let's build this. Together.",
         "Two roles. Two strengths. One studio.",
         "Creative direction and brand design on one side.",
@@ -108,12 +108,12 @@ export default function StoryPage() {
       tagline: "For every founder starting with nothing",
       metaphor: "Unified Brandedby",
       text: [
-        "Eight years of friendship. Eight years of conversations that went deeper than most people go in a lifetime. Eight years of learning, failing, rebuilding — side by side and separately.",
+        "Eight years of friendship. Eight years of conversations that went deeper than most people go in a lifetime. Eight years of learning, failing, rebuilding - side by side and separately.",
         "When we started our journeys, nobody guided us. Nobody told us what branding was, why it mattered, or how to build something that people would actually trust.",
-        "We learned it the hard way — together.",
-        "So when a new business founder comes to us with no clear direction, no brand, and no idea where to begin — we don't just understand their situation. We've lived it.",
+        "We learned it the hard way - together.",
+        "So when a new business founder comes to us with no clear direction, no brand, and no idea where to begin - we don't just understand their situation. We've lived it.",
         "That's why Brandedby Studios exists.",
-        "Not to make pretty logos. Not to just run campaigns. But to be the people we never had — the ones who sit down with you, understand your business, and build something real."
+        "Not to make pretty logos. Not to just run campaigns. But to be the people we never had - the ones who sit down with you, understand your business, and build something real."
       ]
     }
   ];
@@ -229,7 +229,7 @@ export default function StoryPage() {
               Two disciplines, not one.
             </h4>
             <p className="text-secondary text-sm sm:text-base leading-relaxed font-normal">
-              Most studios give you design. Most agencies give you marketing. We give you both — a Creative Director who builds the brand and a CMO who grows it. Under one roof.
+              Most studios give you design. Most agencies give you marketing. We give you both - a Creative Director who builds the brand and a CMO who grows it. Under one roof.
             </p>
           </div>
         </div>

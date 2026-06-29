@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -124,7 +124,7 @@ export default function HomePage() {
 
             {/* Sub-headline */}
             <p className="text-secondary text-base md:text-lg max-w-xl font-normal leading-relaxed">
-              For new businesses who are ready to invest in something real. We've been where you are — and we know exactly what your brand needs.
+              For new businesses who are ready to invest in something real. We've been where you are - and we know exactly what your brand needs.
             </p>
 
             {/* CTA Buttons */}
@@ -229,7 +229,7 @@ export default function HomePage() {
               Most new businesses launch without a brand. We've been there. That's why we exist.
             </h2>
             <p className="text-secondary text-sm md:text-base leading-relaxed font-normal max-w-2xl mt-4">
-              We started with nothing — no guide, no mentor, no one to tell us what branding really meant. We built anyway. Failed. Rebuilt. And came back with something better: the knowledge to do it right for the founders who come after us.
+              We started with nothing - no guide, no mentor, no one to tell us what branding really meant. We built anyway. Failed. Rebuilt. And came back with something better: the knowledge to do it right for the founders who come after us.
             </p>
           </div>
         </div>
@@ -246,7 +246,7 @@ export default function HomePage() {
               Everything Your Brand Needs. Under One Roof.
             </h2>
             <p className="text-muted text-sm max-w-xl font-normal">
-              From strategy to launch — we handle the creative and the growth.
+              From strategy to launch - we handle the creative and the growth.
             </p>
           </div>
         </div>
@@ -313,7 +313,7 @@ export default function HomePage() {
                 Brands We've Built.
               </h2>
               <p className="text-muted text-sm font-normal max-w-md">
-                A selection of our work — each one a business we believed in.
+                A selection of our work - each one a business we believed in.
               </p>
             </div>
             <Link
@@ -395,7 +395,7 @@ export default function HomePage() {
               <Award className="w-5 h-5" />
             </div>
             <h4 className="font-heading font-bold text-lg text-primary">
-              01 — Built From Experience, Not Theory
+              01 - Built From Experience, Not Theory
             </h4>
             <p className="text-secondary text-sm sm:text-base leading-relaxed font-normal">
               We've launched without a brand. We've felt what it costs. Everything we do for you is informed by what we wish someone had done for us.
@@ -407,10 +407,10 @@ export default function HomePage() {
               <Zap className="w-5 h-5" />
             </div>
             <h4 className="font-heading font-bold text-lg text-primary">
-              02 — We Work Until It's Right
+              02 - We Work Until It's Right
             </h4>
             <p className="text-secondary text-sm sm:text-base leading-relaxed font-normal">
-              No revision limits. No clock watching. We stop when you're genuinely proud of your brand — not when a counter hits zero.
+              No revision limits. No clock watching. We stop when you're genuinely proud of your brand - not when a counter hits zero.
             </p>
           </div>
 
@@ -419,10 +419,10 @@ export default function HomePage() {
               <Lightbulb className="w-5 h-5" />
             </div>
             <h4 className="font-heading font-bold text-lg text-primary">
-              03 — You Leave Understanding Your Brand
+              03 - You Leave Understanding Your Brand
             </h4>
             <p className="text-secondary text-sm sm:text-base leading-relaxed font-normal">
-              When we finish, you don't just own a logo. You understand it — why it looks the way it does, what it communicates, and how to use it with confidence.
+              When we finish, you don't just own a logo. You understand it - why it looks the way it does, what it communicates, and how to use it with confidence.
             </p>
           </div>
         </div>
@@ -437,7 +437,7 @@ export default function HomePage() {
           <div className="lg:col-span-8 flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6">
             <div>
               <h2 className="font-heading font-extrabold text-3xl sm:text-5xl tracking-tight leading-none mb-4">
-                Did You Know Your Brand Is Talking — Even When You're Not?
+                Did You Know Your Brand Is Talking - Even When You're Not?
               </h2>
               <p className="text-muted text-sm font-normal max-w-md">
                 Every day we share one insight about branding. For new business founders who want to understand the game before they play it.
@@ -516,7 +516,7 @@ export default function HomePage() {
             Don't Know Where to Start With Your Brand?
           </h2>
           <p className="text-secondary text-sm md:text-base leading-relaxed max-w-xl font-normal">
-            We made a free guide for new business founders — everything we wish someone had handed us at the beginning. No fluff. Just clarity.
+            We made a free guide for new business founders - everything we wish someone had handed us at the beginning. No fluff. Just clarity.
           </p>
 
           <form onSubmit={handleResourceSubmit} className="mt-4 w-full max-w-md flex flex-col sm:flex-row gap-3">

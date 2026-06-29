@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useRef } from "react";
 import Link from "next/link";
@@ -41,7 +41,7 @@ export default function InsightsPage() {
             Learn What Most Founders Learn Too Late.
           </h1>
           <p className="text-secondary text-sm font-normal max-w-2xl mt-3">
-            One branding insight, every day. For new business founders who want to understand what makes a brand actually work — before they get it wrong.
+            One branding insight, every day. For new business founders who want to understand what makes a brand actually work - before they get it wrong.
           </p>
         </div>
       </section>

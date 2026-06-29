@@ -1,11 +1,11 @@
-export const insights = [
+﻿export const insights = [
   {
     slug: "one-thing-every-new-business-gets-wrong",
     title: "The One Thing Every New Business Gets Wrong About Branding",
     category: "Brand Strategy",
     date: "June 09, 2026",
     excerpt: "Most founders think branding is something you do after you get funding. They are wrong. It starts on day one.",
-    body: "Many new business founders treat branding as a superficial cosmetic layer—a nice logo, a clean color palette, and maybe a catchy tagline to put on a slide deck. They tell themselves: 'We'll fix the brand after we find product-market fit and close our Series A.' This is a massive mistake. Your brand isn't what you look like; it is how you make decisions, how you communicate your values, and why your early adopters choose you over a legacy competitor. By ignoring your brand strategy at the start, you are launching with a weak foundation, making customer acquisition harder and more expensive than it needs to be. Invest in your identity early, understand your positioning, and establish credibility from day one.",
+    body: "Many new business founders treat branding as a superficial cosmetic layer-a nice logo, a clean color palette, and maybe a catchy tagline to put on a slide deck. They tell themselves: 'We'll fix the brand after we find product-market fit and close our Series A.' This is a massive mistake. Your brand isn't what you look like; it is how you make decisions, how you communicate your values, and why your early adopters choose you over a legacy competitor. By ignoring your brand strategy at the start, you are launching with a weak foundation, making customer acquisition harder and more expensive than it needs to be. Invest in your identity early, understand your positioning, and establish credibility from day one.",
   },
   {
     slug: "why-your-brand-is-invisible",
@@ -21,7 +21,7 @@ export const insights = [
     category: "Brand Strategy",
     date: "June 07, 2026",
     excerpt: "One is the strategy, the other is the execution. Here is how they work together to drive business growth.",
-    body: "Positioning is the mental space you want to occupy in your customer's mind. It is strategic, analytical, and highly structured. Branding, on the other hand, is the emotional and visual expression of that strategy. If positioning is the blueprint, branding is the building. You cannot have great design without a clear strategic focus. At Brandedby Studios, we always sit down to define the positioning first—understanding the competitive matrix and the target audience—before we open Figma to sketch the visual identity.",
+    body: "Positioning is the mental space you want to occupy in your customer's mind. It is strategic, analytical, and highly structured. Branding, on the other hand, is the emotional and visual expression of that strategy. If positioning is the blueprint, branding is the building. You cannot have great design without a clear strategic focus. At Brandedby Studios, we always sit down to define the positioning first-understanding the competitive matrix and the target audience-before we open Figma to sketch the visual identity.",
   },
   {
     slug: "coca-cola-apple-and-chai-shop",
@@ -29,7 +29,7 @@ export const insights = [
     category: "Brand Trust",
     date: "June 06, 2026",
     excerpt: "What do multi-billion dollar giants share with the local vendor down the street? The answers might surprise you.",
-    body: "Branding isn't just for massive corporations. A local chai shop has a brand—driven by the flavor consistency, the owner's greetings, and the community it fosters. Apple has a brand driven by design minimalism and premium status. The core element that connects them all is trust. Branding is the aggregation of consistent positive interactions over time. When your audience trusts that you will deliver exactly what you promise, you have successfully built a brand.",
+    body: "Branding isn't just for massive corporations. A local chai shop has a brand-driven by the flavor consistency, the owner's greetings, and the community it fosters. Apple has a brand driven by design minimalism and premium status. The core element that connects them all is trust. Branding is the aggregation of consistent positive interactions over time. When your audience trusts that you will deliver exactly what you promise, you have successfully built a brand.",
   },
   {
     slug: "content-that-builds-trust",
@@ -45,7 +45,7 @@ export const insights = [
     category: "Brand Strategy",
     date: "June 04, 2026",
     excerpt: "A great brand is defined not just by what it loves, but by what it stands against. Find your brand's common enemy.",
-    body: "Great branding requires taking a stand. If your new business stands for everything, it stands for nothing. Defining a common enemy—whether it is 'complex setups,' 'corporate gatekeeping,' or 'hidden pricing'—creates an instant bond with your customer base. You are alignment commanders fighting the same battle as them.",
+    body: "Great branding requires taking a stand. If your new business stands for everything, it stands for nothing. Defining a common enemy-whether it is 'complex setups,' 'corporate gatekeeping,' or 'hidden pricing'-creates an instant bond with your customer base. You are alignment commanders fighting the same battle as them.",
   },
   {
     slug: "five-brand-strategy-questions",
@@ -69,7 +69,7 @@ export const insights = [
     category: "Visual Identity",
     date: "June 01, 2026",
     excerpt: "Stock photos destroy brand credibility. Learn how custom art direction elevates your entire digital presence.",
-    body: "Nothing looks cheaper than using the same stock photo of smiling models that your competitor is using. Custom photography—showing real people, real offices, and actual product layouts—creates a premium sense of realism and establishes instant trust with prospective clients.",
+    body: "Nothing looks cheaper than using the same stock photo of smiling models that your competitor is using. Custom photography-showing real people, real offices, and actual product layouts-creates a premium sense of realism and establishes instant trust with prospective clients.",
   },
   {
     slug: "psychology-of-color-in-new business-brands",
@@ -77,7 +77,7 @@ export const insights = [
     category: "Visual Identity",
     date: "May 30, 2026",
     excerpt: "Choosing color based on personal preference instead of strategic positioning can kill your conversions.",
-    body: "Colors are not just aesthetic choices—they carry deep psychological coordinates. While purple represents premium quality and sophistication, orange drives excitement, call-to-actions, and energy. Combining them correctly sets the exact visual tone your new business needs.",
+    body: "Colors are not just aesthetic choices-they carry deep psychological coordinates. While purple represents premium quality and sophistication, orange drives excitement, call-to-actions, and energy. Combining them correctly sets the exact visual tone your new business needs.",
   },
   {
     slug: "the-brand-audit-is-it-working",

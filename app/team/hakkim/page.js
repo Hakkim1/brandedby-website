@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -53,7 +53,7 @@ export default function HakkimProfilePage() {
             </p>
 
             <div className="italic font-accent text-lg sm:text-xl text-purple-light leading-relaxed border-l-2 border-purple pl-6 py-2 my-4">
-              "I started this because I understand the loneliness of building something with no guidance. I've been the new business that didn't know what branding was. I've run a studio alone until it broke me. I've come back. And now I want to make sure the founders who come to us never have to learn the hard way — because we already did it for them."
+              "I started this because I understand the loneliness of building something with no guidance. I've been the new business that didn't know what branding was. I've run a studio alone until it broke me. I've come back. And now I want to make sure the founders who come to us never have to learn the hard way - because we already did it for them."
             </div>
 
             <p className="text-secondary text-sm md:text-base leading-relaxed max-w-2xl font-normal">
