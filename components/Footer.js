@@ -107,7 +107,7 @@ export default function Footer() {
             </li>
             <li className="pt-2">
               <a
-                href="https://behance.net/hiddengraphdesigns"
+                href="https://www.behance.net/brandedbystudios"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1 text-purple hover:text-purple-light transition-colors cursor-pointer"

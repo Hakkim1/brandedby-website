@@ -75,12 +75,12 @@ export default function ContactPage() {
               <div className="flex items-center gap-3 font-body text-sm">
                 <ExternalLink className="w-4 h-4 text-purple shrink-0" />
                 <a
-                  href="https://behance.net/hiddengraphdesigns"
+                  href="https://www.behance.net/brandedbystudios"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-purple hover:underline"
                 >
-                  behance.net/hiddengraphdesigns
+                  behance.net/brandedbystudios
                 </a>
               </div>
             </div>
