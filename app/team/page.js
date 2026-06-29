@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
@@ -36,7 +36,7 @@ export default function TeamPage() {
             Two People. One Mission.
           </h1>
           <p className="text-secondary text-base font-normal max-w-2xl mt-6">
-            We're not a large agency with departments you'll never meet. When you work with Brandedby Studios, you work with us - directly.
+            We're not a large agency with departments you'll never meet. When you work with Brandedby Studios, you work directly with us.
           </p>
         </div>
       </section>
@@ -103,7 +103,7 @@ export default function TeamPage() {
       {/* Bottom redirection */}
       <section className="max-w-[1000px] mx-auto px-6 text-center mt-24">
         <p className="text-secondary text-base font-normal mb-6">
-          We're always open to honest conversations. If you'd like to know more about how we work - just reach out.
+          We're always open to honest conversations. If you'd like to know more about how we work, just reach out.
         </p>
         <Link href="/contact" className="btn-cyber flex items-center gap-2 mx-auto w-max py-3 px-6">
           <span>Contact Us</span>

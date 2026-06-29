@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -52,7 +52,7 @@ export default function BhuvaneshProfilePage() {
             </p>
 
             <div className="italic font-accent text-lg sm:text-xl text-purple-light leading-relaxed border-l-2 border-purple pl-6 py-2 my-4">
-              "Growing up, I was always curious about why some ideas caught people's attention while others were forgotten. That curiosity eventually led me to marketing. Today, what excites me most isn't the campaigns we launch - it's helping businesses find clarity in who they are and confidence in how they show up. Brandedby Studios is the result of countless conversations, late nights, and a shared vision between two brothers who believed they could build something meaningful together."
+              "Growing up, I was always curious about why some ideas caught people's attention while others were forgotten. That curiosity eventually led me to marketing. Today, what excites me most isn't the campaigns we launch. It's helping businesses find clarity in who they are and confidence in how they show up. Brandedby Studios is the result of countless conversations, late nights, and a shared vision between two brothers who believed they could build something meaningful together."
             </div>
 
             <p className="text-secondary text-sm md:text-base leading-relaxed max-w-2xl font-normal">

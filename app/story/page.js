@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -229,7 +229,7 @@ export default function StoryPage() {
               Two disciplines, not one.
             </h4>
             <p className="text-secondary text-sm sm:text-base leading-relaxed font-normal">
-              Most studios give you design. Most agencies give you marketing. We give you both - a Creative Director who builds the brand and a CMO who grows it. Under one roof.
+              Most studios give you design. Most agencies give you marketing. We give you both: a Creative Director who builds the brand and a CMO who grows it. Under one roof.
             </p>
           </div>
         </div>

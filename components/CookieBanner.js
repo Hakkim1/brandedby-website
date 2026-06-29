@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, useEffect } from "react";
 
@@ -34,7 +34,7 @@ export default function CookieBanner() {
           Can I have some cookies? 🍪
         </h4>
         <p className="text-secondary text-xs font-normal">
-          Just the digital kind - to make your experience better.
+          Just the digital kind, to make your experience better.
         </p>
       </div>
       <div className="flex gap-3 mt-2">
