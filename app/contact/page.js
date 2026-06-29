@@ -88,16 +88,15 @@ export default function ContactPage() {
 
           {/* Right Column: Contact Form */}
           <div className="lg:col-span-8 bg-surface border border-border rounded-none p-8 shadow-xl">
-            <h3 className="font-heading font-extrabold text-xl text-primary mb-6 uppercase tracking-tight">
-              Tell Us About Your Project
-            </h3>
+            {!submitted && (
+              <h3 className="font-heading font-extrabold text-xl text-primary mb-6 uppercase tracking-tight">
+                Tell Us About Your Project
+              </h3>
+            )}
 
             {submitted ? (
-              <div className="text-center py-12 flex flex-col items-center gap-4">
-                <span className="font-body text-xs font-bold text-purple bg-purple/10 border border-purple/20 px-4 py-2 rounded-none">
-                  Delivery Success
-                </span>
-                <h4 className="font-heading font-bold text-lg text-primary">
+              <div className="text-center py-16 flex flex-col items-center gap-3">
+                <h4 className="font-heading font-bold text-xl text-primary">
                   Message Sent Successfully
                 </h4>
                 <p className="text-secondary text-sm max-w-sm mx-auto leading-relaxed">
