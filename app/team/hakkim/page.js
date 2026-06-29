@@ -9,22 +9,13 @@ export default function HakkimProfilePage() {
   const [activeFilter, setActiveFilter] = useState("All");
 
   const skills = [
-    { name: "Brand Identity Design", level: 95 },
-    { name: "Logo Design", level: 90 },
-    { name: "Graphic Design", level: 92 },
-    { name: "Video Editing & Direction", level: 85 },
-    { name: "Photography", level: 80 },
-    { name: "Brand Strategy (coming soon)", level: 70 },
+    "Brand Identity Design",
+    "Logo Design",
+    "Graphic Design",
+    "Video Editing & Direction",
+    "Photography",
+    "Brand Strategy",
   ];
-
-  const works = [
-    { id: 1, name: "Minimalist Identity V1", type: "Brand Identity", color: "from-purple/40 to-surface" },
-    { id: 2, name: "Vector Monogram logo", type: "Logo Design", color: "from-purple/30 to-surface" },
-    { id: 3, name: "Visual Board Grid", type: "Graphic Design", color: "from-surface-2 to-purple/20" },
-    { id: 4, name: "Editorial Brand Shoot", type: "Photography", color: "from-surface-3 to-purple/20" },
-  ];
-
-  const filteredWorks = works.filter((w) => activeFilter === "All" || w.type === activeFilter);
 
   return (
     <div className="blueprint-grid min-h-screen pt-12 pb-24 relative z-10">
@@ -39,9 +30,8 @@ export default function HakkimProfilePage() {
         </Link>
 
         {/* Profile Split layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 border-b border-border pb-16">
-          {/* Left: Bio Info */}
-          <div className="lg:col-span-8 flex flex-col gap-6">
+        <div className="border-b border-border pb-16">
+          <div className="flex flex-col gap-6 max-w-4xl">
             <span className="font-body text-xs font-bold text-purple bg-purple-dim/30 border border-purple/15 px-3 py-1.5 rounded-none w-max">
               Creative Director
             </span>
@@ -56,32 +46,9 @@ export default function HakkimProfilePage() {
               "I started this because I understand the loneliness of building something with no guidance. I've been the new business that didn't know what branding was. I've run a studio alone until it broke me. I've come back. And now I want to make sure the founders who come to us never have to learn the hard way. We already did it for them."
             </div>
 
-            <p className="text-secondary text-sm md:text-base leading-relaxed max-w-2xl font-normal">
+            <p className="text-secondary text-sm md:text-base leading-relaxed font-normal">
               Hakkim manages the visual direction, graphic blueprints, and creative pipelines at Brandedby Studios. Having spent years developing design systems for multiple brands in the Indian new business ecosystem, he specializes in crafting identities that carry a true visual strategy rather than simple cosmetic styling.
             </p>
-          </div>
-
-          {/* Right: Expertise Metrics */}
-          <div className="lg:col-span-4 liquid-glass rounded-none p-8 flex flex-col gap-6 self-start shadow-md">
-            <span className="font-body text-xs font-bold text-purple tracking-widest uppercase">
-              Skills Profiler
-            </span>
-            <div className="flex flex-col gap-4">
-              {skills.map((s) => (
-                <div key={s.name} className="flex flex-col gap-1.5">
-                  <div className="flex justify-between font-body text-xs font-semibold">
-                    <span className="text-primary">{s.name}</span>
-                    <span className="text-purple">{s.level}%</span>
-                  </div>
-                  <div className="w-full h-1 bg-border/40 overflow-hidden">
-                    <div
-                      className="h-full bg-gradient-to-r from-purple to-purple-light"
-                      style={{ width: `${s.level}%` }}
-                    />
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
 
@@ -89,37 +56,19 @@ export default function HakkimProfilePage() {
         <div className="pt-16">
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6 mb-8">
             <span className="font-body text-xs sm:text-sm font-bold text-purple tracking-widest uppercase block">
-              Creative Showcase
+              Skills & Expertise
             </span>
-            <div className="flex flex-wrap gap-2">
-              {["All", "Brand Identity", "Logo Design", "Graphic Design", "Photography"].map((f) => (
-                <button
-                  key={f}
-                  onClick={() => setActiveFilter(f)}
-                  className={`font-body text-xs font-semibold px-4 py-2 border rounded-none transition-all duration-300 cursor-pointer ${
-                    activeFilter === f
-                      ? "bg-purple border-purple text-primary"
-                      : "bg-surface border-border text-muted hover:text-secondary"
-                  }`}
-                >
-                  {f}
-                </button>
-              ))}
-            </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-            {filteredWorks.map((work) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {skills.map((skill) => (
               <div
-                key={work.id}
-                className="group p-6 bg-surface border border-border rounded-none flex flex-col justify-between min-h-64 hover:border-purple/40 transition-colors shadow-lg"
+                key={skill}
+                className="group p-8 bg-surface border border-border rounded-none flex items-center justify-center min-h-[120px] hover:border-purple/40 transition-colors shadow-lg"
               >
-                <div className={`w-full h-32 bg-gradient-to-br ${work.color} rounded-none`} />
-                <div className="mt-4">
-                  <h4 className="font-heading font-bold text-sm text-primary mt-1">
-                    {work.name}
-                  </h4>
-                </div>
+                <h4 className="font-heading font-bold text-base text-primary text-center">
+                  {skill}
+                </h4>
               </div>
             ))}
           </div>
