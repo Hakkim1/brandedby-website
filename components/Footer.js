@@ -16,9 +16,9 @@ export default function Footer() {
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
         {/* Col 1: Brand Info */}
         <div className="flex flex-col gap-4">
-          <Link href="/" className="flex items-center group w-max">
-            <Logo className="h-8 w-auto transition-transform duration-300 group-hover:scale-[1.02]" />
-          </Link>
+          <div className="w-full">
+              <Logo className="w-full h-auto transition-transform duration-300 group-hover:scale-[1.02]" />
+            </div>
           <p className="text-muted text-xs leading-relaxed max-w-xs font-normal">
             Building premium visual identities and growth marketing systems for India's next generation of new businesses.
           </p>
