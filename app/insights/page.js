@@ -1,6 +1,6 @@
-﻿"use client";
+"use client";
 
-import { useState, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { ArrowRight, BookOpen, Calendar, Tag } from "lucide-react";
 import { insights } from "@/data/insights";
@@ -8,7 +8,8 @@ import { ScrambleText } from "@/components/Navbar";
 
 export default function InsightsPage() {
   const [featuredIndex, setFeaturedIndex] = useState(0);
-  const featured = insights[featuredIndex];
+  const [featuredDate, setFeaturedDate] = useState("");
+  const featured = insights[featuredIndex] || insights[0];
   const sliderRef = useRef(null);
 
   // Rotate featured article
@@ -18,6 +19,23 @@ export default function InsightsPage() {
   const prevFeatured = () => {
     setFeaturedIndex((prev) => (prev - 1 + insights.length) % insights.length);
   };
+
+  useEffect(() => {
+    const totalCount = insights.length;
+    if (totalCount > 0) {
+      const now = new Date();
+      // Stable date-based index calculation
+      const dayVal = now.getFullYear() * 365 + (now.getMonth() + 1) * 31 + now.getDate();
+      setFeaturedIndex(dayVal % totalCount);
+
+      const formatted = now.toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      });
+      setFeaturedDate(formatted);
+    }
+  }, []);
 
   const scrollSlider = (direction) => {
     if (sliderRef.current) {
@@ -59,7 +77,7 @@ export default function InsightsPage() {
               </span>
               <span className="font-body text-xs text-muted flex items-center gap-1.5">
                 <Calendar className="w-3.5 h-3.5" />
-                {featured.date}
+                {featuredDate || featured.date}
               </span>
             </div>
             <h2 className="font-heading font-extrabold text-2xl sm:text-4xl text-primary leading-tight tracking-tight">

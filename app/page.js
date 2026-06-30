@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import { ArrowRight, ChevronDown, Award, Lightbulb, Zap, Send } from "lucide-react";
 import { ScrambleText } from "@/components/Navbar";
 import projectsData from "@/data/projects-data.json";
+import { insights } from "@/data/insights";
 
 // Dynamically import Three.js canvas to prevent server-side hydration mismatches
 const HeroCanvas = dynamic(() => import("@/components/HeroCanvas"), { ssr: false });
@@ -15,6 +16,32 @@ export default function HomePage() {
   const [emailInput, setEmailInput] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [emailError, setEmailError] = useState("");
+  const [dailyInsights, setDailyInsights] = useState([
+    {
+      slug: "one-thing-every-new-business-gets-wrong",
+      title: "The One Thing Every New Business Gets Wrong About Branding"
+    },
+    {
+      slug: "why-your-brand-is-invisible",
+      title: "Why Your Brand Is Invisible In a Crowded Market"
+    },
+    {
+      slug: "positioning-vs-branding",
+      title: "Positioning vs Branding: What's the Real Difference?"
+    }
+  ]);
+
+  useEffect(() => {
+    const totalCount = insights.length;
+    if (totalCount > 0) {
+      const now = new Date();
+      const val = now.getFullYear() * 365 + (now.getMonth() + 1) * 31 + now.getDate();
+      const idx1 = val % totalCount;
+      const idx2 = (val + 1) % totalCount;
+      const idx3 = (val + 2) % totalCount;
+      setDailyInsights([insights[idx1], insights[idx2], insights[idx3]]);
+    }
+  }, []);
 
   const services = [
     {
@@ -455,56 +482,27 @@ export default function HomePage() {
 
         {/* 3 Bento Cards for latest insights */}
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="p-8 bg-surface border border-border rounded-none glow-border flex flex-col justify-between min-h-64 shadow-md">
-            <div>
-              <span className="font-body text-xs font-bold text-purple uppercase tracking-wider">
-                Insight 01
-              </span>
-              <h4 className="font-heading font-bold text-lg text-primary mt-3 mb-2">
-                Why your logo isn't your brand
-              </h4>
-            </div>
-            <Link
-              href="/insights/why-your-brand-is-invisible"
-              className="font-body text-sm font-semibold text-purple flex items-center gap-2 mt-4 hover:underline"
+          {dailyInsights.map((insight, i) => (
+            <div
+              key={insight.slug}
+              className="p-8 bg-surface border border-border rounded-none glow-border flex flex-col justify-between min-h-64 shadow-md"
             >
-              <span>Read Insight →</span>
-            </Link>
-          </div>
-
-          <div className="p-8 bg-surface border border-border rounded-none glow-border flex flex-col justify-between min-h-64 shadow-md">
-            <div>
-              <span className="font-body text-xs font-bold text-purple uppercase tracking-wider">
-                Insight 02
-              </span>
-              <h4 className="font-heading font-bold text-lg text-primary mt-3 mb-2">
-                The color mistake most new businesses make
-              </h4>
+              <div>
+                <span className="font-body text-xs font-bold text-purple uppercase tracking-wider">
+                  Insight 0{i + 1}
+                </span>
+                <h4 className="font-heading font-bold text-lg text-primary mt-3 mb-2">
+                  {insight.title}
+                </h4>
+              </div>
+              <Link
+                href={`/insights/${insight.slug}`}
+                className="font-body text-sm font-semibold text-purple flex items-center gap-2 mt-4 hover:underline"
+              >
+                <span>Read Insight →</span>
+              </Link>
             </div>
-            <Link
-              href="/insights/psychology-of-color-in-new business-brands"
-              className="font-body text-sm font-semibold text-purple flex items-center gap-2 mt-4 hover:underline"
-            >
-              <span>Read Insight →</span>
-            </Link>
-          </div>
-
-          <div className="p-8 bg-surface border border-border rounded-none glow-border flex flex-col justify-between min-h-64 shadow-md">
-            <div>
-              <span className="font-body text-xs font-bold text-purple uppercase tracking-wider">
-                Insight 03
-              </span>
-              <h4 className="font-heading font-bold text-lg text-primary mt-3 mb-2">
-                What brand consistency actually means
-              </h4>
-            </div>
-            <Link
-              href="/insights/positioning-vs-branding"
-              className="font-body text-sm font-semibold text-purple flex items-center gap-2 mt-4 hover:underline"
-            >
-              <span>Read Insight →</span>
-            </Link>
-          </div>
+          ))}
         </div>
       </section>
 
