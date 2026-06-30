@@ -5,7 +5,7 @@ export const insights = [
     "category": "Brand Strategy",
     "date": "July 01, 2026",
     "excerpt": "Most founders think branding is something you do after you get funding. They are wrong. It starts on day one.",
-    "body": "Many new business founders treat branding as a superficial cosmetic layer—a nice logo, a clean color palette, and maybe a catchy tagline to put on a slide deck. They tell themselves that they will fix the brand after they find product-market fit and close their Series A. This is a massive mistake. Your brand isn't what you look like; it is how you make decisions, how you communicate your values, and why your early adopters choose you over a legacy competitor.\n\nBy ignoring your brand strategy at the start, you are launching with a weak foundation, making customer acquisition harder and more expensive than it needs to be. Customer trust is not something you can build retrospectively; it must be designed into your initial messaging. When you launch with a generic look, you signal that your product is generic too.\n\nInvest in your identity early. Understand your positioning, define your core value proposition, and establish credibility from day one. It is much easier to scale a strong brand than it is to fix a broken reputation later on."
+    "body": "Many new business founders treat branding as a superficial cosmetic layer consisting of a nice logo, a clean color palette, and maybe a catchy tagline to put on a slide deck. They tell themselves that they will fix the brand after they find product-market fit and close their Series A. This is a massive mistake. Your brand isn't what you look like; it is how you make decisions, how you communicate your values, and why your early adopters choose you over a legacy competitor.\n\nBy ignoring your brand strategy at the start, you are launching with a weak foundation, making customer acquisition harder and more expensive than it needs to be. Customer trust is not something you can build retrospectively; it must be designed into your initial messaging. When you launch with a generic look, you signal that your product is generic too.\n\nInvest in your identity early. Understand your positioning, define your core value proposition, and establish credibility from day one. It is much easier to scale a strong brand than it is to fix a broken reputation later on."
   },
   {
     "slug": "why-your-brand-is-invisible",
@@ -21,7 +21,7 @@ export const insights = [
     "category": "Brand Strategy",
     "date": "July 03, 2026",
     "excerpt": "One is the strategy, the other is the execution. Here is how they work together to drive business growth.",
-    "body": "Positioning is the mental space you want to occupy in your customer's mind. It is strategic, analytical, and highly structured. It answers the question: what do you do, who is it for, and why does it matter more than the alternatives? It is the underlying logic that drives your company forward.\n\nBranding, on the other hand, is the emotional and visual expression of that strategy. If positioning is the blueprint, branding is the physical building. You cannot have great design without a clear strategic focus. A beautiful logo representing a confused value proposition will only help your customers understand your confusion faster.\n\nAt Brandedby Studios, we always sit down to define the positioning first—understanding the competitive matrix and the target audience—before we open Figma to sketch the visual identity. Great design is always the visual consequence of clear strategic thinking."
+    "body": "Positioning is the mental space you want to occupy in your customer's mind. It is strategic, analytical, and highly structured. It answers the question: what do you do, who is it for, and why does it matter more than the alternatives? It is the underlying logic that drives your company forward.\n\nBranding, on the other hand, is the emotional and visual expression of that strategy. If positioning is the blueprint, branding is the physical building. You cannot have great design without a clear strategic focus. A beautiful logo representing a confused value proposition will only help your customers understand your confusion faster.\n\nAt Brandedby Studios, we always sit down to define the positioning first by understanding the competitive matrix and the target audience, before we open Figma to sketch the visual identity. Great design is always the visual consequence of clear strategic thinking."
   },
   {
     "slug": "coca-cola-apple-and-chai-shop",
@@ -29,7 +29,7 @@ export const insights = [
     "category": "Brand Trust",
     "date": "July 04, 2026",
     "excerpt": "What do multi-billion dollar giants share with the local vendor down the street? The answers might surprise you.",
-    "body": "Branding isn't just for massive corporations with huge marketing budgets. A local chai shop has a brand—driven by the flavor consistency, the owner's greetings, and the community it fosters. Apple has a brand driven by design minimalism and premium status. The core element that connects them all is trust.\n\nBranding is the aggregation of consistent positive interactions over time. When your audience trusts that you will deliver exactly what you promise, you have successfully built a brand. It is the invisible contract you sign with your customer. If the chai shop starts serving bad tea, or if Apple starts making buggy software, the brand breaks.\n\nAs a founder, focus on creating consistency. Every email, every social media post, and every page layout must reinforce the same promise. When consistency is high, brand value is high."
+    "body": "Branding isn't just for massive corporations with huge marketing budgets. A local chai shop has a brand, which is driven by the flavor consistency, the owner's greetings, and the community it fosters. Apple has a brand driven by design minimalism and premium status. The core element that connects them all is trust.\n\nBranding is the aggregation of consistent positive interactions over time. When your audience trusts that you will deliver exactly what you promise, you have successfully built a brand. It is the invisible contract you sign with your customer. If the chai shop starts serving bad tea, or if Apple starts making buggy software, the brand breaks.\n\nAs a founder, focus on creating consistency. Every email, every social media post, and every page layout must reinforce the same promise. When consistency is high, brand value is high."
   },
   {
     "slug": "content-that-builds-trust",
@@ -45,7 +45,7 @@ export const insights = [
     "category": "Brand Strategy",
     "date": "July 06, 2026",
     "excerpt": "A great brand is defined not just by what it loves, but by what it stands against. Find your brand's common enemy.",
-    "body": "Great branding requires taking a stand. If your new business stands for everything, it stands for nothing. Defining a common enemy—whether it is 'complex setups,' 'corporate gatekeeping,' or 'hidden pricing'—creates an instant bond with your customer base.\n\nYour enemy is not necessarily a competitor; it is a status quo that your customer hates. By positioning your brand as the solution to this struggle, you invite your audience to join a mission. You are alignment commanders fighting the same battle as them.\n\nWhen you clearly define what you stand against, your ideal customers will self-select and align with your brand. Do not be afraid to be polarized. A brand that everyone likes slightly is weak; a brand that some love and some ignore is highly effective."
+    "body": "Great branding requires taking a stand. If your new business stands for everything, it stands for nothing. Defining a common enemy, such as 'complex setups,' 'corporate gatekeeping,' or 'hidden pricing,' creates an instant bond with your customer base.\n\nYour enemy is not necessarily a competitor; it is a status quo that your customer hates. By positioning your brand as the solution to this struggle, you invite your audience to join a mission. You are alignment commanders fighting the same battle as them.\n\nWhen you clearly define what you stand against, your ideal customers will self-select and align with your brand. Do not be afraid to be polarized. A brand that everyone likes slightly is weak; a brand that some love and some ignore is highly effective."
   },
   {
     "slug": "five-brand-strategy-questions",
@@ -69,7 +69,7 @@ export const insights = [
     "category": "Visual Identity",
     "date": "July 09, 2026",
     "excerpt": "Stock photos destroy brand credibility. Learn how custom art direction elevates your entire digital presence.",
-    "body": "Nothing looks cheaper than using the same stock photo of smiling models that your competitor is using. In a digital space where users are highly skeptical, using generic assets signals that your brand lacks authenticity.\n\nCustom photography—showing real people, real offices, and actual product layouts—creates a premium sense of realism and establishes instant trust with prospective clients. It gives your brand a bespoke texture that templates cannot duplicate.\n\nInvest in a custom photoshoot early. Define your art direction, select matching backgrounds, and show the human faces behind your technology. It is one of the highest-returning visual investments you can make."
+    "body": "Nothing looks cheaper than using the same stock photo of smiling models that your competitor is using. In a digital space where users are highly skeptical, using generic assets signals that your brand lacks authenticity.\n\nCustom photography showing real people, real offices, and actual product layouts creates a premium sense of realism and establishes instant trust with prospective clients. It gives your brand a bespoke texture that templates cannot duplicate.\n\nInvest in a custom photoshoot early. Define your art direction, select matching backgrounds, and show the human faces behind your technology. It is one of the highest returning visual investments you can make."
   },
   {
     "slug": "psychology-of-color-in-new-business-brands",
@@ -77,7 +77,7 @@ export const insights = [
     "category": "Visual Identity",
     "date": "July 10, 2026",
     "excerpt": "Choosing color based on personal preference instead of strategic positioning can kill your conversions.",
-    "body": "Colors are not just aesthetic choices—they carry deep psychological coordinates. They trigger immediate emotional responses before the brain has time to read your value statement.\n\nChoosing a brand color based on personal preference is a trap. If your brand stands for security and trust, blue is logical. If your brand stands for premium sophistication and focus, purple is highly effective. Combining colors correctly sets the exact visual tone your new business needs to convert.\n\nAnalyze your competitors' color choices and select a palette that makes you stand out while remaining aligned with your industry's expectations. Use colors strategically, not emotionally."
+    "body": "Colors are not just aesthetic choices, they carry deep psychological coordinates. They trigger immediate emotional responses before the brain has time to read your value statement.\n\nChoosing a brand color based on personal preference is a trap. If your brand stands for security and trust, blue is logical. If your brand stands for premium sophistication and focus, purple is highly effective. Combining colors correctly sets the exact visual tone your new business needs to convert.\n\nAnalyze your competitors' color choices and select a palette that makes you stand out while remaining aligned with your industry's expectations. Use colors strategically, not emotionally."
   },
   {
     "slug": "the-brand-audit-is-it-working",
@@ -85,7 +85,7 @@ export const insights = [
     "category": "Brand Trust",
     "date": "July 11, 2026",
     "excerpt": "Take our simple visual check to see if your brand is communicating trust or driving users away.",
-    "body": "Is your typography consistent across landing pages, ads, and slide decks? Are you using the correct hex codes? If your visual system is fractured, you are bleeding credibility.\n\nConsistency is the bedrock of trust. When your visual presentation changes across different touchpoints, it signals that your organization is disorganized. Run a brand audit once a quarter to ensure that your identity is aligned across all customer interactions.\n\nGather all your customer-facing materials—ads, landing pages, proposal decks—and look at them together. If they do not look like they belong to the same family, it is time to standardize your system."
+    "body": "Is your typography consistent across landing pages, ads, and slide decks? Are you using the correct hex codes? If your visual system is fractured, you are bleeding credibility.\n\nConsistency is the bedrock of trust. When your visual presentation changes across different touchpoints, it signals that your organization is disorganized. Run a brand audit once a quarter to ensure that your identity is aligned across all customer interactions.\n\nGather all your customer-facing materials, ads, landing pages, proposal decks, and look at them together. If they do not look like they belong to the same family, it is time to standardize your system."
   },
   {
     "slug": "why-tone-of-voice-defines-your-brand",
@@ -93,7 +93,7 @@ export const insights = [
     "category": "Brand Voice",
     "date": "July 12, 2026",
     "excerpt": "Your brand talks even when you aren't writing copy. Learn how a consistent tone of voice builds authority.",
-    "body": "Most startup founders spend weeks refining their visual palette but forget how their brand actually speaks. If your homepage sounds like a legal contract, your emails read like Gen-Z slang, and your social ads sound like corporate jargon, your brand is suffering from personality split. Defining a singular tone of voice—whether it is bold, intellectual, or reassuring—creates a consistent texture across all communication channels.\n\nWrite down your voice guidelines today: define your brand's core adjectives, list words you never use, and showcase before-and-after copy examples. This keeps your messaging aligned as you scale."
+    "body": "Most startup founders spend weeks refining their visual palette but forget how their brand actually speaks. If your homepage sounds like a legal contract, your emails read like Gen-Z slang, and your social ads sound like corporate jargon, your brand is suffering from personality split. Defining a singular tone of voice, whether it is bold, intellectual, or reassuring, creates a consistent texture across all communication channels.\n\nWrite down your voice guidelines today: define your brand's core adjectives, list words you never use, and showcase before-and-after copy examples. This keeps your messaging aligned as you scale."
   },
   {
     "slug": "the-myth-of-the-logo-redesign",
@@ -109,7 +109,7 @@ export const insights = [
     "category": "Visual Identity",
     "date": "July 14, 2026",
     "excerpt": "Is clean design always better? Standing out means breaking the minimalist rules.",
-    "body": "We live in an era of extreme minimalism where every startup wants to look like Apple or Airbnb. While clean design is safe and readable, it can also lead to a lack of distinction. Sometimes, embracing maximalist visual elements—rich textures, irregular grids, bold color pairings—is what your brand needs to break through the noise.\n\nThe choice between minimalism and maximalism should not be based on trendiness; it should align with your brand's core character. Break the rules with purpose."
+    "body": "We live in an era of extreme minimalism where every startup wants to look like Apple or Airbnb. While clean design is safe and readable, it can also lead to a lack of distinction. Sometimes, embracing maximalist visual elements, rich textures, irregular grids, bold color pairings, is what your brand needs to break through the noise.\n\nThe choice between minimalism and maximalism should not be based on trendiness; it should align with your brand's core character. Break the rules with purpose."
   },
   {
     "slug": "consistency-beats-creativity-in-strategy",
@@ -133,7 +133,7 @@ export const insights = [
     "category": "Visual Identity",
     "date": "July 17, 2026",
     "excerpt": "A great brand can be recognized without showing its logo. Here is how to create a visual anchor.",
-    "body": "If you remove the logo from your homepage, can a customer still identify you? If the answer is no, you lack a visual signature. A signature element is a distinct asset—like Mastercard's intersecting circles, Nike's swoosh placement, or a specific brand gradient—that anchors the visual language.\n\nFind one element in your identity and make it the hero across all platforms. Repeat it consistently until it is synonymous with your name."
+    "body": "If you remove the logo from your homepage, can a customer still identify you? If the answer is no, you lack a visual signature, and a signature element is a distinct asset, like Mastercard's intersecting circles, Nike's swoosh placement, or a specific brand gradient, that anchors the visual language.\n\nFind one element in your identity and make it the hero across all platforms. Repeat it consistently until it is synonymous with your name."
   },
   {
     "slug": "how-to-protect-your-brand-identity",
@@ -141,7 +141,7 @@ export const insights = [
     "category": "Brand Trust",
     "date": "July 18, 2026",
     "excerpt": "A guide on maintaining design control as your startup scales and more people touch the brand assets.",
-    "body": "As your team grows, keeping the brand consistent becomes a major challenge. Freelancers, agencies, and internal hires will start creating assets that slowly drift away from the core identity. To prevent this, build a single source of truth: a digital brand portal with downloadable assets, font files, and clear dos and don'ts.\n\nConduct quarterly reviews of marketing materials to verify alignment and preserve design integrity."
+    "body": "As your team grows, keeping the brand consistent becomes a major challenge. Freelancers, agencies, and internal hires will start creating assets that slowly drift away from the core identity. To prevent this, build a single source of truth: a digital brand portal with downloadable assets, font files, and clear usage guidelines.\n\nConduct quarterly reviews of marketing materials to verify alignment and preserve design integrity."
   },
   {
     "slug": "the-rolodex-effect-designing-for-recall",
@@ -205,7 +205,7 @@ export const insights = [
     "category": "Brand Strategy",
     "date": "July 26, 2026",
     "excerpt": "A written manifesto aligns your internal team and attracts your absolute best customers.",
-    "body": "A brand manifesto is a statement of belief. It answers the question: what do we stand for, and what do we reject? It does not talk about features or pricing. It talks about values.\n\nBy putting your manifesto on your site, you give your team a clear cultural guide, and you show your audience exactly who you are."
+    "body": "A brand manifesto is a statement of belief answering what we stand for and what we reject. It does not focus on features or pricing, but rather on core values.\n\nBy putting your manifesto on your site, you give your team a clear cultural guide, and you show your audience exactly who you are."
   },
   {
     "slug": "the-role-of-packaging-in-brands",
@@ -213,7 +213,7 @@ export const insights = [
     "category": "Visual Identity",
     "date": "July 27, 2026",
     "excerpt": "The unboxing experience is the physical touchpoint of your brand. Do not waste it.",
-    "body": "For physical products, packaging is the first tactile interaction a customer has with your brand. A generic brown box with a standard label is a wasted opportunity.\n\nPremium packaging—using custom textures, hidden copy details, and elegant opening mechanics—creates anticipation, enhances perceived product value, and encourages organic social sharing."
+    "body": "For physical products, packaging is the first tactile interaction a customer has with your brand. A generic brown box with a standard label is a wasted opportunity.\n\nPremium packaging, using custom textures, hidden copy details, and elegant opening mechanics, creates anticipation, enhances perceived product value, and encourages organic social sharing."
   },
   {
     "slug": "brand-adaptation-when-to-pivot",
@@ -237,7 +237,7 @@ export const insights = [
     "category": "Visual Identity",
     "date": "July 30, 2026",
     "excerpt": "The sonic coordinates of your brand build deep memory hooks. Think beyond visual design.",
-    "body": "Think of Netflix's 'ta-dum' sound or Intel's chime. Audio branding builds instant recognition in situations where visuals are absent.\n\nAs voice search and video content continue to expand, defining your brand's sonic identity—the voice tone in videos, sound effects in your app, or a signature music style—is a powerful differentiator."
+    "body": "Think of Netflix's 'ta-dum' sound or Intel's chime. Audio branding builds instant recognition in situations where visuals are absent.\n\nAs voice search and video content continue to expand, defining your brand's sonic identity, the voice tone in videos, sound effects in your app, or a signature music style, is a powerful differentiator."
   },
   {
     "slug": "designing-for-the-next-generation",
