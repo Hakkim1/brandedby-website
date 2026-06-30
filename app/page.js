@@ -32,14 +32,22 @@ export default function HomePage() {
   ]);
 
   useEffect(() => {
-    const totalCount = insights.length;
-    if (totalCount > 0) {
-      const now = new Date();
-      const val = now.getFullYear() * 365 + (now.getMonth() + 1) * 31 + now.getDate();
-      const idx1 = val % totalCount;
-      const idx2 = (val + 1) % totalCount;
-      const idx3 = (val + 2) % totalCount;
-      setDailyInsights([insights[idx1], insights[idx2], insights[idx3]]);
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const visible = insights.filter((item) => {
+      const releaseDate = new Date(item.date);
+      releaseDate.setHours(0, 0, 0, 0);
+      return releaseDate <= today;
+    });
+
+    const sorted = [...visible].sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    if (sorted.length > 0) {
+      setDailyInsights(sorted.slice(0, 3));
+    } else {
+      // Fallback to show the first article if before release start
+      setDailyInsights([insights[0]]);
     }
   }, []);
 

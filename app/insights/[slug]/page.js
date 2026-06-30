@@ -1,3 +1,6 @@
+"use client";
+
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { ArrowLeft, Calendar, Tag } from "lucide-react";
 import { insights } from "@/data/insights";
@@ -11,10 +14,24 @@ export async function generateStaticParams() {
 
 export default function InsightDetailsPage({ params }) {
   const { slug } = params;
+  const [isClient, setIsClient] = useState(false);
+  const [released, setReleased] = useState(false);
+
   const articleIndex = insights.findIndex((item) => item.slug === slug);
   const article = insights[articleIndex];
 
-  if (!article) {
+  useEffect(() => {
+    setIsClient(true);
+    if (article) {
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+      const releaseDate = new Date(article.date);
+      releaseDate.setHours(0, 0, 0, 0);
+      setReleased(releaseDate <= today);
+    }
+  }, [article]);
+
+  if (!article || (isClient && !released)) {
     return (
       <div className="blueprint-grid min-h-screen pt-24 text-center">
         <div className="max-w-md mx-auto py-20 bg-surface border border-border rounded-none shadow-lg">
@@ -22,7 +39,7 @@ export default function InsightDetailsPage({ params }) {
             Error 404
           </span>
           <h1 className="font-heading font-extrabold text-2xl text-primary mb-6">
-            Article Not Found
+            Article Not Yet Released
           </h1>
           <Link href="/insights" className="btn-cyber-purple px-6 py-2.5 font-semibold">
             Back to Insights
@@ -72,12 +89,14 @@ export default function InsightDetailsPage({ params }) {
 
         {/* Article Body */}
         <article className="prose prose-invert max-w-none text-secondary text-sm md:text-base leading-relaxed font-normal flex flex-col gap-6">
-          <p>{article.body}</p>
-          <p>
+          {article.body.split('\n\n').map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
+          <p className="mt-4 pt-4 border-t border-border/40 text-purple-light font-medium italic">
             Building a brand takes consistent effort and a structured approach.
             By aligning your strategy before your creative execution, you can
-            make sure your business communicates trust immediately. At Branded
-            By Studio, we work with founders to design identities that scale
+            make sure your business communicates trust immediately. At Brandedby
+            Studios, we work with founders to design identities that scale
             naturally. Reach out to us to do a complete visual check.
           </p>
         </article>
