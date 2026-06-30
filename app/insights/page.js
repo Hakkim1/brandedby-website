@@ -93,7 +93,6 @@ export default function InsightsPage() {
               </Link>
             </div>
           </div>
-          </div>
         </div>
       </section>
 
