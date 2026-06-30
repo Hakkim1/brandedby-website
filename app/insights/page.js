@@ -12,13 +12,6 @@ export default function InsightsPage() {
   const featured = insights[featuredIndex] || insights[0];
   const sliderRef = useRef(null);
 
-  // Rotate featured article
-  const nextFeatured = () => {
-    setFeaturedIndex((prev) => (prev + 1) % insights.length);
-  };
-  const prevFeatured = () => {
-    setFeaturedIndex((prev) => (prev - 1 + insights.length) % insights.length);
-  };
 
   useEffect(() => {
     const totalCount = insights.length;
@@ -98,26 +91,8 @@ export default function InsightsPage() {
                 <span>Read Full Article</span>
                 <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
               </Link>
-
-              {/* Slider Toggles */}
-              <div className="flex items-center gap-3 font-body text-xs">
-                <button
-                  onClick={prevFeatured}
-                  className="px-3.5 py-1.5 border border-border hover:border-purple hover:bg-purple hover:text-white text-muted rounded-none cursor-pointer transition-colors"
-                >
-                  Previous
-                </button>
-                <span className="text-purple font-semibold">
-                  {featuredIndex + 1} / {insights.length}
-                </span>
-                <button
-                  onClick={nextFeatured}
-                  className="px-3.5 py-1.5 border border-border hover:border-purple hover:bg-purple hover:text-white text-muted rounded-none cursor-pointer transition-colors"
-                >
-                  Next
-                </button>
-              </div>
             </div>
+          </div>
           </div>
         </div>
       </section>
