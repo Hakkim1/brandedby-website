@@ -123,7 +123,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="font-body text-xs text-muted tracking-wide text-center md:text-left">
-          © {currentYear} BRANDEDBY STUDIOS. ALL RIGHTS RESERVED.
+          © {currentYear} BRANDBLOK STUDIO. ALL RIGHTS RESERVED.
         </div>
         <div className="font-body text-xs text-muted flex items-center gap-4 uppercase tracking-wider font-semibold">
           <span>Designed By Us</span>

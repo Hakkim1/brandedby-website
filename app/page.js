@@ -407,7 +407,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 6. WHY BRANDEDBY STUDIOS */}
+      {/* 6. WHY BRANDBLOK STUDIO */}
       <section className="py-24 bg-surface/10 relative z-10">
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 mb-16">
           <div className="lg:col-span-4 font-body text-xs sm:text-sm font-bold text-purple tracking-widest uppercase">

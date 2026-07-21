@@ -36,7 +36,7 @@ export default function TeamPage() {
             Two People. One Mission.
           </h1>
           <p className="text-secondary text-base font-normal max-w-2xl mt-6">
-            We're not a large agency with departments you'll never meet. When you work with Brandedby Studios, you work directly with us.
+            We're not a large agency with departments you'll never meet. When you work with Brandblok Studio, you work directly with us.
           </p>
         </div>
       </section>

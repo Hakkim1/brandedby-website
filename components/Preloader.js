@@ -59,9 +59,9 @@ export default function Preloader() {
       // Set initial states to avoid FOUC and prepare for build-up animation
       gsap.set(logoRef.current, { opacity: 1, scale: 1 });
       gsap.set(".logo-mark-bg", { scale: 0, transformOrigin: "center", opacity: 0 });
-      gsap.set(".logo-cube-poly-1", { x: -30, y: -30, opacity: 0 });
+      gsap.set(".logo-cube-poly-1", { x: -20, y: -40, opacity: 0 });
       gsap.set(".logo-cube-poly-2", { y: 30, opacity: 0 });
-      gsap.set(".logo-cube-poly-3", { x: 30, y: 30, opacity: 0 });
+      gsap.set(".logo-cube-poly-gap", { opacity: 0 });
       gsap.set(".logo-text-main", { x: -30, opacity: 0 });
       gsap.set(".logo-purple-square", { y: -120, opacity: 0 });
       gsap.set(".logo-text-studios", { y: 15, opacity: 0 });
@@ -70,17 +70,17 @@ export default function Preloader() {
       tl.to(".logo-mark-bg", { scale: 1, opacity: 1, duration: 0.6, ease: "power3.out" }, 0.2);
 
       // 2. The building blocks cubes assembly
-      tl.to(".logo-cube-poly-1", { x: 0, y: 0, opacity: 1, duration: 0.7, ease: "power2.out" }, 0.4);
-      tl.to(".logo-cube-poly-2", { y: 0, opacity: 1, duration: 0.7, ease: "power2.out" }, 0.5);
-      tl.to(".logo-cube-poly-3", { x: 0, y: 0, opacity: 1, duration: 0.7, ease: "power2.out" }, 0.6);
+      tl.to(".logo-cube-poly-2", { y: 0, opacity: 1, duration: 0.7, ease: "power2.out" }, 0.4);
+      tl.to(".logo-cube-poly-1", { x: 0, y: 0, opacity: 1, duration: 0.7, ease: "power2.out" }, 0.5);
+      tl.to(".logo-cube-poly-gap", { opacity: 1, duration: 0.4 }, 0.6);
 
-      // 3. Slide in the main text "Brandedby"
+      // 3. Slide in the main text "Brandblok"
       tl.to(".logo-text-main", { x: 0, opacity: 1, duration: 0.8, ease: "power3.out" }, 0.5);
 
       // 4. The purple dot drop with bouncing physics
       tl.to(".logo-purple-square", { y: 0, opacity: 1, duration: 1.1, ease: "bounce.out" }, 0.7);
 
-      // 5. Fade/Slide in "Studios" subtext
+      // 5. Fade/Slide in "Studio" subtext
       tl.to(".logo-text-studios", { y: 0, opacity: 1, duration: 0.6, ease: "power2.out" }, 0.9);
 
       // Slide up text items slightly
@@ -107,7 +107,7 @@ export default function Preloader() {
     >
       {/* Top Header info (Minimalist, modern, clean) */}
       <div className="flex justify-between items-center w-full font-body text-[10px] tracking-[0.2em] text-muted uppercase font-semibold">
-        <div className="preload-text">BRANDEDBY STUDIOS</div>
+        <div className="preload-text">BRANDBLOK STUDIO</div>
         <div className="preload-text">MUMBAI // BANGALORE</div>
       </div>
 

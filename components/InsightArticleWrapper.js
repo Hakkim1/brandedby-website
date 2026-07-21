@@ -79,8 +79,8 @@ export default function InsightArticleWrapper({ article, prevArticle, nextArticl
           <p className="mt-4 pt-4 border-t border-border/40 text-purple-light font-medium italic">
             Building a brand takes consistent effort and a structured approach.
             By aligning your strategy before your creative execution, you can
-            make sure your business communicates trust immediately. At Brandedby
-            Studios, we work with founders to design identities that scale
+            make sure your business communicates trust immediately. At Brandblok
+            Studio, we work with founders to design identities that scale
             naturally. Reach out to us to do a complete visual check.
           </p>
         </article>

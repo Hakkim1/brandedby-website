@@ -99,20 +99,20 @@ export default function StoryPage() {
         "Two roles. Two strengths. One studio.",
         "Creative direction and brand design on one side.",
         "Full stack marketing on the other.",
-        "Brandedby Studios was born."
+        "Brandblok Studio was born."
       ]
     },
     {
       id: "08",
       title: "Why We Do This",
       tagline: "For every founder starting with nothing",
-      metaphor: "Unified Brandedby",
+      metaphor: "Unified Brandblok",
       text: [
         "Eight years of friendship. Eight years of conversations that went deeper than most people go in a lifetime. Eight years of learning, failing, rebuilding - side by side and separately.",
         "When we started our journeys, nobody guided us. Nobody told us what branding was, why it mattered, or how to build something that people would actually trust.",
         "We learned it the hard way - together.",
         "So when a new business founder comes to us with no clear direction, no brand, and no idea where to begin - we don't just understand their situation. We've lived it.",
-        "That's why Brandedby Studios exists.",
+        "That's why Brandblok Studio exists.",
         "Not to make pretty logos. Not to just run campaigns. But to be the people we never had - the ones who sit down with you, understand your business, and build something real."
       ]
     }
@@ -200,7 +200,7 @@ export default function StoryPage() {
           </div>
           <div className="lg:col-span-8">
             <h2 className="font-heading font-extrabold text-3xl sm:text-5xl tracking-tight leading-none">
-              Why Brandedby Studios?
+              Why Brandblok Studio?
             </h2>
           </div>
         </div>

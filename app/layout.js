@@ -8,9 +8,9 @@ import LayoutWrapper from "@/components/LayoutWrapper";
 import InteractiveGrid from "@/components/InteractiveGrid";
 
 export const metadata = {
-  title: "Brandedby Studios | Building Brands for New Businesses",
+  title: "Brandblok Studio | Building Brands for New Businesses",
   description:
-    "Brandedby Studios is a premium creative branding agency and CMO growth marketing partner for India's next generation of new businesses. Incubation, Design, and Identity Systems under one roof.",
+    "Brandblok Studio is a premium creative branding agency and CMO growth marketing partner for India's next generation of new businesses. Incubation, Design, and Identity Systems under one roof.",
   metadataBase: new URL("http://localhost:3000"),
 };
 
