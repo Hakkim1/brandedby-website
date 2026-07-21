@@ -204,7 +204,7 @@ export default function StoryPage() {
               The Origin
             </div>
             <h2 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-none">
-              Why the Name <span className="text-gradient-purple">"Brandblok"</span>?
+              Why the Name <span className="whitespace-nowrap"><span className="text-gradient-purple">"Brandblok"</span>?</span>
             </h2>
             <p className="font-accent italic text-xl sm:text-2xl text-secondary mt-2 leading-relaxed">
               Every name has a story. Ours begins with a simple idea.
