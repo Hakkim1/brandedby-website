@@ -214,8 +214,8 @@ export default function StoryPage() {
 
         {/* Row 2: 3 Cards Grid (Spanning Full Width) */}
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          {/* Intro Card - Transparent background */}
-          <div className="p-8 bg-transparent border border-border rounded-none shadow-md flex flex-col justify-between hover:border-purple/30 transition-all duration-300">
+          {/* Intro Card */}
+          <div className="p-8 bg-surface border border-border rounded-none shadow-md flex flex-col justify-between hover:border-purple/30 transition-all duration-300">
             <div>
               <div className="text-xs font-mono text-purple/60 mb-2">01 // THE IDEA</div>
               <h4 className="font-heading font-bold text-base text-primary mb-3">
@@ -261,12 +261,10 @@ export default function StoryPage() {
             </p>
           </div>
 
-          {/* Center Aligned Core Belief Callout Box */}
-          <div className="p-8 border border-purple/30 bg-purple-dim/10 max-w-2xl w-full mx-auto flex flex-col items-center gap-2 text-center relative overflow-hidden">
-            {/* Soft decorative glow behind text */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-purple/10 rounded-full blur-[40px] pointer-events-none" />
-            <span className="text-xs font-mono text-purple uppercase tracking-wider relative z-10">Our Core Belief</span>
-            <p className="font-heading font-extrabold text-xl sm:text-2xl tracking-tight text-primary relative z-10">
+          {/* Centered Core Belief Box - White Background with Left Purple Border */}
+          <div className="p-8 bg-surface border border-border border-l-4 border-l-purple rounded-none shadow-md max-w-2xl w-full mx-auto flex flex-col gap-2 text-left relative">
+            <span className="text-xs font-mono text-purple uppercase tracking-wider">Our Core Belief</span>
+            <p className="font-heading font-extrabold text-xl sm:text-2xl tracking-tight text-primary">
               Because brands aren't decorated. <span className="text-purple">They're built.</span>
             </p>
           </div>
