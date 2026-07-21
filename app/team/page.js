@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { ScrambleText } from "@/components/Navbar";
 import hakkimPhoto from "@/public/team-hakkim.jpg";
+import bhuvaneshPhoto from "@/public/team-bhuvanesh.png";
 
 export default function TeamPage() {
   const team = [
@@ -23,7 +24,7 @@ export default function TeamPage() {
       quote: "Growth isn't accidental. We make it intentional.",
       skills: ["Full Stack Marketing", "Brand Consulting", "Ad Campaigns", "Copywriting"],
       gradient: "linear-gradient(135deg, #9f91fa 0%, #14141E 100%)",
-      image: null,
+      image: bhuvaneshPhoto,
     },
   ];
 
