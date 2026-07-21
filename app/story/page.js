@@ -262,7 +262,7 @@ export default function StoryPage() {
           </div>
 
           {/* Centered Core Belief Box - White Background with Left Purple Border */}
-          <div className="p-8 bg-surface border border-border border-l-4 border-l-purple rounded-none shadow-md max-w-2xl w-full mx-auto flex flex-col gap-2 text-left relative">
+          <div className="p-8 bg-surface border border-border border-l-4 border-l-purple rounded-none shadow-md max-w-2xl w-full mx-auto flex flex-col items-center gap-2 text-center relative">
             <span className="text-xs font-mono text-purple uppercase tracking-wider">Our Core Belief</span>
             <p className="font-heading font-extrabold text-xl sm:text-2xl tracking-tight text-primary">
               Because brands aren't decorated. <span className="text-purple">They're built.</span>
