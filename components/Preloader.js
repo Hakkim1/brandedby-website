@@ -113,7 +113,7 @@ export default function Preloader() {
 
       {/* Center Logo Area */}
       <div className="flex flex-col items-center justify-center gap-6">
-        <div ref={logoRef} className="flex flex-col items-center gap-4">
+        <div ref={logoRef} className="flex flex-col items-center gap-4 opacity-0">
           <Logo vertical={true} className="h-24 sm:h-28 md:h-32 w-auto" />
         </div>
 
