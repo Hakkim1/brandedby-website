@@ -192,6 +192,67 @@ export default function StoryPage() {
         </div>
       </section>
 
+      {/* WHY THE NAME "BRANDBLOK"? */}
+      <section className="py-20 border-t border-border bg-surface-2/30 relative overflow-hidden">
+        {/* Subtle background glow */}
+        <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[350px] h-[350px] bg-purple-glow/5 rounded-full blur-[120px] pointer-events-none" />
+        
+        <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12">
+          {/* Left Column: Heading & Intro */}
+          <div className="lg:col-span-5 flex flex-col gap-6">
+            <div className="font-body text-xs font-bold text-purple tracking-widest uppercase">
+              The Origin
+            </div>
+            <h2 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-none">
+              Why the Name <span className="text-gradient-purple">"Brandblok"</span>?
+            </h2>
+            <p className="font-accent italic text-xl sm:text-2xl text-secondary mt-2 leading-relaxed">
+              Every name has a story. Ours begins with a simple idea.
+            </p>
+          </div>
+
+          {/* Right Column: Narrative & Building Blocks */}
+          <div className="lg:col-span-7 flex flex-col gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {/* Brand Card */}
+              <div className="p-8 bg-surface border border-border/80 shadow-sm relative group hover:border-purple/30 transition-all duration-300">
+                <div className="text-xs font-mono text-purple/60 mb-2">01 // IDENTITY</div>
+                <h3 className="font-heading font-bold text-xl text-primary mb-3">Brand</h3>
+                <p className="text-secondary text-sm sm:text-base leading-relaxed">
+                  Represents identity, purpose, and the unique story every business carries.
+                </p>
+              </div>
+
+              {/* Blok Card */}
+              <div className="p-8 bg-surface border border-border/80 shadow-sm relative group hover:border-purple/30 transition-all duration-300">
+                <div className="text-xs font-mono text-purple/60 mb-2">02 // FOUNDATION</div>
+                <h3 className="font-heading font-bold text-xl text-primary mb-3">Blok</h3>
+                <p className="text-secondary text-sm sm:text-base leading-relaxed">
+                  A word found across several European languages (Dutch, Polish, Czech, Croatian, Slovenian), meaning <strong className="text-primary font-semibold">"block."</strong> It represents a foundational piece forming part of a larger structure.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-6 text-secondary text-sm sm:text-base leading-relaxed mt-4">
+              <p>
+                A memorable brand isn't built overnight. It isn't created by a logo alone. It's built through strategy, positioning, visual identity, messaging, experiences, and countless thoughtful decisions. Each one becomes another building block.
+              </p>
+              <p>
+                That's why we chose the name <strong className="text-primary font-semibold">Brandblok</strong>. It represents our belief that every successful brand is built from strong foundations, one block at a time.
+              </p>
+            </div>
+
+            {/* Accent callout */}
+            <div className="mt-4 p-6 border-l-2 border-purple bg-surface shadow-sm flex flex-col gap-2">
+              <span className="text-xs font-mono text-purple uppercase tracking-wider">Our Core Belief</span>
+              <p className="font-heading font-extrabold text-lg sm:text-xl tracking-tight text-primary">
+                Because brands aren't decorated. <span className="text-purple">They're built.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* WHY US - AFTER THE STORY */}
       <section className="mt-12 pt-12 bg-surface/10">
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 mb-16">
