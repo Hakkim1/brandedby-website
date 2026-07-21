@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { ScrambleText } from "@/components/Navbar";
+import hakkimPhoto from "@/public/team-hakkim.jpg";
 
 export default function TeamPage() {
   const team = [
@@ -13,6 +14,7 @@ export default function TeamPage() {
       quote: "Every brand we touch should have a soul, not just a logo.",
       skills: ["Branding", "Graphic Design", "Video Editing", "Photography"],
       gradient: "linear-gradient(135deg, #7d68f8 0%, #14141E 100%)",
+      image: hakkimPhoto,
     },
     {
       name: "Bhuvanesh",
@@ -21,6 +23,7 @@ export default function TeamPage() {
       quote: "Growth isn't accidental. We make it intentional.",
       skills: ["Full Stack Marketing", "Brand Consulting", "Ad Campaigns", "Copywriting"],
       gradient: "linear-gradient(135deg, #9f91fa 0%, #14141E 100%)",
+      image: null,
     },
   ];
 
@@ -50,14 +53,26 @@ export default function TeamPage() {
               className="bg-surface border border-border rounded-none flex flex-col p-6 justify-between relative overflow-hidden shadow-xl"
             >
               <div>
-                {/* Photo placeholder */}
+                {/* Photo container */}
                 <div
-                  className="w-full h-64 rounded-none mb-4 overflow-hidden relative"
-                  style={{ background: member.gradient }}
+                  className="w-full h-72 rounded-none mb-4 overflow-hidden relative bg-surface-2 border border-border"
                 >
-                  <div className="absolute top-4 left-4 font-body text-xs font-semibold text-muted tracking-wide uppercase bg-bg/85 border border-border px-3.5 py-1.5 rounded-none shadow-md">
-                    Founder Profile Avatar
-                  </div>
+                  {member.image ? (
+                    <img
+                      src={member.image.src || member.image}
+                      alt={member.name}
+                      className="w-full h-full object-cover filter grayscale contrast-[1.05] hover:grayscale-0 transition-all duration-500"
+                    />
+                  ) : (
+                    <div
+                      className="w-full h-full relative"
+                      style={{ background: member.gradient }}
+                    >
+                      <div className="absolute top-4 left-4 font-body text-xs font-semibold text-muted tracking-wide uppercase bg-bg/85 border border-border px-3.5 py-1.5 rounded-none shadow-md">
+                        Founder Profile Avatar
+                      </div>
+                    </div>
+                  )}
                 </div>
 
                 <h3 className="font-heading font-extrabold text-2xl text-primary mb-1">
