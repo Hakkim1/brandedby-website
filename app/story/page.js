@@ -206,20 +206,23 @@ export default function StoryPage() {
             <h2 className="font-heading font-extrabold text-3xl sm:text-5xl tracking-tight leading-none">
               Why the Name <span className="whitespace-nowrap"><span className="text-gradient-purple">"Brandblok"</span>?</span>
             </h2>
+            <p className="font-accent italic text-xl sm:text-2xl text-secondary mt-4 leading-relaxed">
+              Every name has a story. Ours begins with a simple idea.
+            </p>
           </div>
         </div>
 
         {/* Row 2: 3 Cards Grid (Spanning Full Width) */}
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          {/* Intro Card */}
-          <div className="p-8 bg-surface/50 border border-border rounded-none shadow-md flex flex-col justify-between">
+          {/* Intro Card - Transparent background */}
+          <div className="p-8 bg-transparent border border-border rounded-none shadow-md flex flex-col justify-between hover:border-purple/30 transition-all duration-300">
             <div>
               <div className="text-xs font-mono text-purple/60 mb-2">01 // THE IDEA</div>
               <h4 className="font-heading font-bold text-base text-primary mb-3">
-                Every name has a story.
+                Building something lasting.
               </h4>
               <p className="text-secondary text-sm sm:text-base leading-relaxed font-normal">
-                Ours begins with a simple idea that branding is about building something lasting.
+                We believe that branding is about building solid, authentic, and high-impact foundations.
               </p>
             </div>
           </div>
@@ -247,26 +250,25 @@ export default function StoryPage() {
           </div>
         </div>
 
-        {/* Row 3: Narrative & Callout */}
-        <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12">
-          <div className="lg:col-span-4" />
-          <div className="lg:col-span-8 flex flex-col gap-6">
-            <div className="flex flex-col gap-6 text-secondary text-sm sm:text-base leading-relaxed">
-              <p>
-                A memorable brand isn't built overnight. It isn't created by a logo alone. It's built through strategy, positioning, visual identity, messaging, experiences, and countless thoughtful decisions. Each one becomes another building block.
-              </p>
-              <p>
-                That's why we chose the name <strong className="text-primary font-semibold">Brandblok</strong>. It represents our belief that every successful brand is built from strong foundations, one block at a time.
-              </p>
-            </div>
+        {/* Row 3: Narrative & Callout - Center Aligned */}
+        <div className="max-w-[1400px] mx-auto px-6 md:px-12 flex flex-col items-center gap-10 mt-12 text-center">
+          <div className="flex flex-col gap-6 text-secondary text-sm sm:text-base leading-relaxed max-w-3xl mx-auto">
+            <p>
+              A memorable brand isn't built overnight. It isn't created by a logo alone. It's built through strategy, positioning, visual identity, messaging, experiences, and countless thoughtful decisions. Each one becomes another building block.
+            </p>
+            <p>
+              That's why we chose the name <strong className="text-primary font-semibold">Brandblok</strong>. It represents our belief that every successful brand is built from strong foundations, one block at a time.
+            </p>
+          </div>
 
-            {/* Accent callout */}
-            <div className="mt-4 p-6 border-l-2 border-purple bg-surface shadow-sm flex flex-col gap-2">
-              <span className="text-xs font-mono text-purple uppercase tracking-wider">Our Core Belief</span>
-              <p className="font-heading font-extrabold text-lg sm:text-xl tracking-tight text-primary">
-                Because brands aren't decorated. <span className="text-purple">They're built.</span>
-              </p>
-            </div>
+          {/* Center Aligned Core Belief Callout Box */}
+          <div className="p-8 border border-purple/30 bg-purple-dim/10 max-w-2xl w-full mx-auto flex flex-col items-center gap-2 text-center relative overflow-hidden">
+            {/* Soft decorative glow behind text */}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-purple/10 rounded-full blur-[40px] pointer-events-none" />
+            <span className="text-xs font-mono text-purple uppercase tracking-wider relative z-10">Our Core Belief</span>
+            <p className="font-heading font-extrabold text-xl sm:text-2xl tracking-tight text-primary relative z-10">
+              Because brands aren't decorated. <span className="text-purple">They're built.</span>
+            </p>
           </div>
         </div>
       </section>
